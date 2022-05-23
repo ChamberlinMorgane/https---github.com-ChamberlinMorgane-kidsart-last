@@ -10,20 +10,21 @@ import InscriptionsView from '../views/InscriptionsView.vue'
 import MoncompteView from '../views/MoncompteView.vue'
 import NosartistesView from '../views/NosartistesView.vue'
 
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    { path: '/', name: 'Accueil', component: AccueilView },
-    { path: '/apropos', name: 'Apropos', component: AproposView },
-    { path: '/coloriage', name: 'Coloriage', component: ColoriageView },
-    { path: '/commande', name: 'Commande', component: CommandeView },
-    { path: '/connexion', name: 'Connexion', component: ConnexionView },
-    { path: '/contact', name: 'Contact', component: ContactView },
-    { path: '/inscriptions', name: 'Inscriptions', component: InscriptionsView },
-    { path: '/mentionslegales', name: 'Mentionslegales', component: MentionslegalesView },
-    { path: '/moncompte', name: 'Moncompte', component: MoncompteView },
-    { path: '/nosartistes', name: 'Nosartistes', component: NosartistesView },
-    // ici les autre routes
+    { path: '/accueil', name: 'AccueilView', component: AccueilView },
+    { path: '/apropos', name: 'AproposView', component: AproposView },
+    { path: '/coloriage', name: 'ColoriageView', component: ColoriageView },
+    { path: '/commande', name: 'CommandeView', component: CommandeView },
+    { path: '/connexion', name: 'ConnexionView', component: ConnexionView },
+    { path: '/contact', name: 'ContactView', component: ContactView },
+    { path: '/inscriptions', name: 'InscriptionsView', component: InscriptionsView },
+    { path: '/mentionslegales', name: 'MentionslegalesView', component: MentionslegalesView },
+    { path: '/moncompte', name: 'MoncompteView', component: MoncompteView },
+    { path: '/nosartistes', name: 'NosartistesView', component: NosartistesView },
+
   ]
 })
 

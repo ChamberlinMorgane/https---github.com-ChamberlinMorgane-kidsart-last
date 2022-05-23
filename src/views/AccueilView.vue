@@ -1,22 +1,85 @@
 <template>
   <main>
-    <h1 class="text-8xl font-acme mx-24 mt-24">Kid’sArt</h1>
-    <h2 class="text-3xl font-mulish mx-24 mt-4">Combinez la créativité de vos enfants et <br> le talent de nos artistes !</h2>
-    <img src="src/assets/images/img-accueil.jpg" class="mx-96" alt="famille">
+    <h1 class="mx-24 mt-24 font-acme text-8xl">Kid’sArt</h1>
+    <h2 class="mx-24 mt-4 font-mulish text-3xl">
+      Combinez la créativité de vos enfants et <br />
+      le talent de nos artistes !
+    </h2>
+    <img src="src/assets/images/img-accueil.jpg" class="mx-96" alt="famille" />
 
-    <p class="text-2xl font-mulish text-center mt-4">“Un véritable artiste est un artiste qui touche tout le monde.”</p>
-    <p class="text-2xl font-mulish text-center mt-4"> Bernard Werber</p>
+    <p class="mt-4 text-center font-mulish text-2xl">“Un véritable artiste est un artiste qui touche tout le monde.”</p>
+    <p class="mt-4 text-center font-mulish text-2xl">Bernard Werber</p>
 
-    <h2 class="text-3xl mx-24 mt-28">Kid’sArt qu’est-ce que c’est ?</h2>
-    <div class="p-px bg-orange-fonce w-96 h-4 mx-20"></div>
+    <h2 class="mx-24 mt-28 text-3xl">Kid’sArt qu’est-ce que c’est ?</h2>
+    <div class="mx-20 mb-24 -mt-3 h-4 w-96 bg-orange-fonce p-px"></div>
 
-    <p class=" mt-28 mx-60">Vous souhaitez convertir les dessins de vos enfants en <br> guise de souvenirs ou d’élargir vos connaissances en art ? <br>
-      Kid’sArt est fait pour vous ! </p>
+    <div class="z-20 float-right -mb-36">
+      <div class="z-10 mx-4 mr-2 mb-2 rounded-lg bg-orange-fonce py-2.5">
+        <p class="mx-20 mt-8">
+          Vous souhaitez convertir les dessins de vos enfants en <br />
+          guise de souvenirs ou d’élargir vos connaissances en art ? <br />
+          Kid’sArt est fait pour vous !
+        </p>
+        <p class="mx-20 mt-2 mb-8">
+          Nos artistes vous proposent leurs services en interprettant en oeuvre d’art <br />
+          les prestations de vos enfants avec talent et imagination
+        </p>
+      </div>
+    </div>
 
-    <img src="src/assets/images/img-2-accueil.jpg" class="mx-20" alt="artiste">
+    <img src="src/assets/images/index-image.jpg" class="-z-10 mx-20" alt="artiste" />
 
+    <div class="mx-auto max-w-lg">
+      <iframe
+        frameborder="0"
+        class="juxtapose"
+        width="491"
+        height="705"
+        src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=f34ad3e3-dabf-11ec-b5bb-6595d9b17862"
+      ></iframe>
+    </div>
 
+    <div class="flex flex-col items-center justify-center">
+      <p class="my-7 text-center">
+        Cette oeuvre a été réalisé par l’artiste Morgane Monary. L’attrapge rêve signifie l’évolution du rêve, par le biais de
+        l’intensité...
+      </p>
+      <button
+        type="button"
+        class="bg-orange-clair mx-4 mr-2 mb-2 rounded-lg border-2 border-black px-9 py-2.5 text-sm font-medium text-black"
+      >
+        En savoir plus
+      </button>
+    </div>
 
+    <h2 class="mx-24 mt-28 text-3xl">Mais comment ça marche ?</h2>
+    <div class="mx-20 -mt-3 h-4 w-96 bg-orange-fonce p-px"></div>
+
+    <p class="mx-40 mt-8 font-bold">C’est très simple !</p>
+
+    <div class="mx-28 mt-16">
+      <img src="../assets/images/crayon.jpg" alt="crayon de papier" class="w-20" />
+      <img src="../assets/images/crayon.jpg" alt="crayon de papier" class="w-20" />
+      <img src="../assets/images/crayon.jpg" alt="crayon de papier" class="w-20" />
+      <img src="../assets/images/crayon.jpg" alt="crayon de papier" class="w-20" />
+    </div>
+
+    <nav class="mx-48 -mt-24">
+      <ul>
+        <li>Il suffit de choisir un dessin que vous désirez transformer</li>
+        <li>De contacter l’artiste que vous désirez sur notre site en jugeant si leurs compétences sont à la hauteur de vos attentes</li>
+        <li>Commander par le moyen de paiement que vous préférez parmi Paypal, Mastercad, Visa, carte bancaire</li>
+        <li>Valider la commande et s’assurer que votre oeuvre répond à vos critères</li>
+      </ul>
+    </nav>
+
+    <p class="mx-24 mt-9">Il n’y a plus qu’’offrir à vos proches ou l’accrocher à votre mur</p>
+
+    <div class="mt-20 mb-20 flex flex-col items-center justify-center">
+      <button type="button" class="mb-2 rounded-lg border-2 border-black bg-white px-9 py-5 text-2xl font-medium text-black">
+        Je veux m'inscrire !
+      </button>
+    </div>
   </main>
 </template>
 
