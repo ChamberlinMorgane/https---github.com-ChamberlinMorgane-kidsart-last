@@ -5,151 +5,72 @@
     !
   </p>
 
-  <div class="ml-60 grid grid-cols-3">
-    <div class="mt-10 mb-20 h-56 w-48 border-8 border-orange-fonce bg-orange-fonce">
-      <img src="src/assets/images/images.jpg" alt="dessin 1" />
-      <div class="mt-2 flex h-5 w-5 flex-row gap-7">
-        <img src="src/assets/icons/crayon.png" alt="crayon" />
-        <p class="text-xs">colorier gratuitement</p>
-        <img src="src/assets/icons/contour-en-forme-de-coeur.png" alt="coeur" />
-      </div>
-      <a href="src/assets/images/images-2.pdf" download rel="noopener noreferrer" target="_blank"
-        ><img class="float-right mt-5 h-5 w-5" src="src/assets/icons/telecharger.png" alt="#"
-      /></a>
-    </div>
-
-    <div class="mt-10 mb-20 h-56 w-48 border-8 border-orange-fonce bg-orange-fonce">
-      <img src="src/assets/images/images-2.jpg" alt="dessin 1" />
-      <div class="mt-2 flex h-5 w-5 flex-row gap-7">
-        <img src="src/assets/icons/crayon.png" alt="crayon" />
-        <p class="text-xs">colorier gratuitement</p>
-        <img src="src/assets/icons/contour-en-forme-de-coeur.png" alt="coeur" />
-      </div>
-      <a href="src/assets/images/images-2.pdf" download rel="noopener noreferrer" target="_blank"
-        ><img class="float-right mt-5 h-5 w-5" src="src/assets/icons/telecharger.png" alt="#"
-      /></a>
-    </div>
-
-    <div class="mt-10 mb-20 h-56 w-48 border-8 border-orange-fonce bg-orange-fonce">
-      <img src="src/assets/images/images-3.jpg" alt="dessin 1" />
-      <div class="mt-2 flex h-5 w-5 flex-row gap-7">
-        <img src="src/assets/icons/crayon.png" alt="crayon" />
-        <p class="text-xs">colorier gratuitement</p>
-        <img src="src/assets/icons/contour-en-forme-de-coeur.png" alt="coeur" />
-      </div>
-      <a href="src/assets/images/images-2.pdf" download rel="noopener noreferrer" target="_blank"
-        ><img class="float-right mt-5 h-5 w-5" src="src/assets/icons/telecharger.png" alt="#"
-      /></a>
-    </div>
-
-    <div class="mb-20 h-56 w-48 border-8 border-orange-fonce bg-orange-fonce">
-      <img src="src/assets/images/images-4.jpg" alt="dessin 1" />
-      <div class="mt-2 flex h-5 w-5 flex-row gap-7">
-        <img src="src/assets/icons/crayon.png" alt="crayon" />
-        <p class="text-xs">colorier gratuitement</p>
-        <img src="src/assets/icons/contour-en-forme-de-coeur.png" alt="coeur" />
-      </div>
-      <a href="src/assets/images/images-2.pdf" download rel="noopener noreferrer" target="_blank"
-        ><img class="float-right mt-5 h-5 w-5" src="src/assets/icons/telecharger.png" alt="#"
-      /></a>
-    </div>
-
-    <div class="mb-20 h-56 w-48 border-8 border-orange-fonce bg-orange-fonce">
-      <img src="src/assets/images/images-5.jpg" alt="dessin 1" />
-      <div class="mt-2 flex h-5 w-5 flex-row gap-7">
-        <img src="src/assets/icons/crayon.png" alt="crayon" />
-        <p class="text-xs">colorier gratuitement</p>
-        <img src="src/assets/icons/contour-en-forme-de-coeur.png" alt="coeur" />
-      </div>
-      <a href="src/assets/images/images-2.pdf" download rel="noopener noreferrer" target="_blank"
-        ><img class="float-right mt-5 h-5 w-5" src="src/assets/icons/telecharger.png" alt="#"
-      /></a>
-    </div>
-
-    <div class="mb-20 h-56 w-48 border-8 border-orange-fonce bg-orange-fonce">
-      <img src="src/assets/images/image-6.jpg" alt="dessin 1" />
-      <div class="mt-2 flex h-5 w-5 flex-row gap-7">
-        <img src="src/assets/icons/crayon.png" alt="crayon" />
-        <p class="text-xs">colorier gratuitement</p>
-        <img src="src/assets/icons/contour-en-forme-de-coeur.png" alt="coeur" />
-      </div>
-      <a href="src/assets/images/images-2.pdf" download rel="noopener noreferrer" target="_blank"
-        ><img class="float-right mt-5 h-5 w-5" src="src/assets/icons/telecharger.png" alt="#"
-      /></a>
-    </div>
-
-    <div class="mb-20 h-56 w-48 border-8 border-orange-fonce bg-orange-fonce">
-      <img src="src/assets/images/image-7.jpg" alt="dessin 1" />
-      <div class="mt-2 flex h-5 w-5 flex-row gap-7">
-        <img src="src/assets/icons/crayon.png" alt="crayon" />
-        <p class="text-xs">colorier gratuitement</p>
-        <img src="src/assets/icons/contour-en-forme-de-coeur.png" alt="coeur" />
-      </div>
-      <a href="src/assets/images/images-2.pdf" download rel="noopener noreferrer" target="_blank"
-        ><img class="float-right mt-5 h-5 w-5" src="src/assets/icons/telecharger.png" alt="#"
-      /></a>
-    </div>
-
-    <div class="mb-20 h-56 w-48 border-8 border-orange-fonce bg-orange-fonce">
-      <img src="src/assets/images/image-8.jpg" alt="dessin 1" />
-      <div class="mt-2 flex h-5 w-5 flex-row gap-7">
-        <img src="src/assets/icons/crayon.png" alt="crayon" />
-        <p class="text-xs">colorier gratuitement</p>
-        <img src="src/assets/icons/contour-en-forme-de-coeur.png" alt="coeur" />
-      </div>
-      <a href="src/assets/images/images-2.pdf" download rel="noopener noreferrer" target="_blank"
-        ><img class="float-right mt-5 h-5 w-5" src="src/assets/icons/telecharger.png" alt="#"
-      /></a>
-    </div>
-
-    <div class="mb-20 h-56 w-48 border-8 border-orange-fonce bg-orange-fonce">
-      <img src="src/assets/images/images-9.jpg" alt="dessin 1" />
-      <div class="mt-2 flex h-5 w-5 flex-row gap-7">
-        <img src="src/assets/icons/crayon.png" alt="crayon" />
-        <p class="text-xs">colorier gratuitement</p>
-        <img src="src/assets/icons/contour-en-forme-de-coeur.png" alt="coeur" />
-      </div>
-      <a href="src/assets/images/images-2.pdf" download rel="noopener noreferrer" target="_blank"
-        ><img class="float-right mt-5 h-5 w-5" src="src/assets/icons/telecharger.png" alt="#"
-      /></a>
-    </div>
-
-    <div class="mb-20 h-56 w-48 border-8 border-orange-fonce bg-orange-fonce">
-      <img src="src/assets/images/image-10.jpg" alt="dessin 1" />
-      <div class="mt-2 flex h-5 w-5 flex-row gap-7">
-        <img src="src/assets/icons/crayon.png" alt="crayon" />
-        <p class="text-xs">colorier gratuitement</p>
-        <img src="src/assets/icons/contour-en-forme-de-coeur.png" alt="coeur" />
-      </div>
-      <a href="src/assets/images/images-2.pdf" download rel="noopener noreferrer" target="_blank"
-        ><img class="float-right mt-5 h-5 w-5" src="src/assets/icons/telecharger.png" alt="#"
-      /></a>
-    </div>
-
-    <div class="mb-20 h-56 w-48 border-8 border-orange-fonce bg-orange-fonce">
-      <img src="src/assets/images/image-12.jpg" alt="dessin 1" />
-      <div class="mt-2 flex h-5 w-5 flex-row gap-7">
-        <img src="src/assets/icons/crayon.png" alt="crayon" />
-        <p class="text-xs">colorier gratuitement</p>
-        <img src="src/assets/icons/contour-en-forme-de-coeur.png" alt="coeur" />
-      </div>
-      <a href="src/assets/images/images-2.pdf" download rel="noopener noreferrer" target="_blank"
-        ><img class="float-right mt-5 h-5 w-5" src="src/assets/icons/telecharger.png" alt="#"
-      /></a>
-    </div>
-
-    <div class="mb-20 h-56 w-48 border-8 border-orange-fonce bg-orange-fonce">
-      <img src="src/assets/images/image-13.jpg" alt="dessin 1" />
-      <div class="mt-2 flex h-5 w-5 flex-row gap-7">
-        <img src="src/assets/icons/crayon.png" alt="crayon" />
-        <p class="text-xs">colorier gratuitement</p>
-        <img src="src/assets/icons/contour-en-forme-de-coeur.png" alt="coeur" />
-      </div>
-      <a href="src/assets/images/images-2.pdf" download rel="noopener noreferrer" target="_blank"
-        ><img class="float-right mt-5 h-5 w-5" src="src/assets/icons/telecharger.png" alt="#"
-      /></a>
-    </div>
+  <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
+    <RouterLink to="/artiste" v-for="col in listeColoriages" :key="col"><Card2 :image="col.image" /></RouterLink>
   </div>
 </template>
+
+<script>
+import Card2 from "../components/Card2.vue";
+
+import {
+  getFirestore,
+  collection,
+  doc,
+  query,
+  orderBy,
+  getDocs,
+  addDoc,
+  updateDoc,
+  deleteDoc,
+  onSnapshot,
+} from "https://www.gstatic.com/firebasejs/9.8.2/firebase-firestore.js";
+import {
+  getStorage, // Obtenir le Cloud Storage
+  ref, // Pour créer une référence à un fichier à uploader
+  getDownloadURL, // Permet de récupérer l'adress complète d'un fichier du Storage
+  uploadString, // Permet d'uploader sur le Cloud Storage une image en Base64
+} from "https://www.gstatic.com/firebasejs/9.8.2/firebase-storage.js";
+
+export default {
+  components: {
+    Card2,
+  },
+  data() {
+    return {
+      listeColoriages: [],
+    };
+  },
+  mounted() {
+    this.getColoriages();
+  },
+  methods: {
+    async getColoriages() {
+      const firestore = getFirestore();
+      const dbCol = collection(firestore, "Coloriages");
+      const q = query(dbCol, orderBy("image", "asc"));
+      await onSnapshot(q, (snapshot) => {
+        this.listeColoriages = snapshot.docs.map((doc) => ({
+          id: doc.id,
+          ...doc.data(),
+        }));
+        this.listeColoriages.forEach(function (personne) {
+          const storage = getStorage();
+          const spaceRef = ref(storage, "Coloriages/" + personne.image);
+          getDownloadURL(spaceRef)
+            .then((url) => {
+              personne.image = url;
+            })
+            .catch((error) => {
+              console.log("erreur download url", error);
+            });
+        });
+      });
+    },
+  },
+
+  computed: {},
+};
+</script>
 
 

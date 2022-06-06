@@ -18,9 +18,7 @@ export default {
   /* Les "props" servent à définir les "attributs" qui seront passés a l'instance du composant pour le personnalisé.
   Chaque "props" a un nom et un type */
   props: {
-    nom: String,
     image: String,
-    id: String,
   },
   components: {
     PencilAltIcon,
