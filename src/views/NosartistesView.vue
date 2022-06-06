@@ -1,95 +1,110 @@
 <template>
-  <img src="src/assets/images/hero_artistes.jpg" alt="hero page nos artistes" />
-  <div class="mt-24 grid grid-cols-3 gap-14">
-    <div>
-      <img src="src/assets/images/Mask-group.jpg" alt="profil numéro 1" />
-      <div class="mt-3 mr-20 grid grid-cols-1 justify-items-center">
-        <p>Lucie GORDA</p>
-        <p class="mb-5">Peintre</p>
-        <button type="button" class="rounded-lg bg-black px-5 py-2.5 text-sm font-medium text-white focus:outline-none">
-          En savoir plus
-        </button>
-      </div>
-    </div>
-    <div>
-      <img src="src/assets/images/Mask-group-2.jpg" alt="profil numéro 3" />
-      <div class="mt-3 mr-20 grid grid-cols-1 justify-items-center">
-        <p>Gloria IMAO</p>
-        <p class="mb-5">Dessinatrice</p>
-        <button type="button" class="m-auto rounded-lg bg-black px-5 py-2.5 text-sm font-medium text-white focus:outline-none">
-          En savoir plus
-        </button>
-      </div>
-    </div>
-    <div>
-      <img src="src/assets/images/Mask-group-3.jpg" alt="profil numéro 4" />
-      <div class="mt-3 mr-20 grid grid-cols-1 justify-items-center">
-        <p>Mylène DUTREUX</p>
-        <p class="mb-5">Peintre</p>
-        <button type="button" class="m-auto rounded-lg bg-black px-5 py-2.5 text-sm font-medium text-white focus:outline-none">
-          En savoir plus
-        </button>
-      </div>
-    </div>
-    <div>
-      <img src="src/assets/images/Mask-group-4.jpg" alt="profil numéro 5" />
-      <div class="mt-3 mr-20 grid grid-cols-1 justify-items-center">
-        <p>Xavier KIM</p>
-        <p class="mb-5">Sculpteur</p>
-        <button type="button" class="m-auto rounded-lg bg-black px-5 py-2.5 text-sm font-medium text-white focus:outline-none">
-          En savoir plus
-        </button>
-      </div>
-    </div>
-    <div>
-      <img src="src/assets/images/Mask-group-5.jpg" alt="profil numéro 6" />
-      <div class="mt-3 mr-20 grid grid-cols-1 justify-items-center">
-        <p>Enora LAPIGUE</p>
-        <p class="mb-5">Dessinatrice graphique</p>
-        <button type="button" class="m-auto rounded-lg bg-black px-5 py-2.5 text-sm font-medium text-white focus:outline-none">
-          En savoir plus
-        </button>
-      </div>
-    </div>
-    <div>
-      <img src="src/assets/images/Mask-group-6.jpg" alt="profil numéro 7" />
-      <div class="mt-3 mr-20 grid grid-cols-1 justify-items-center">
-        <p>Daniel CURTICE</p>
-        <p class="mb-5">Animateur</p>
-        <button type="button" class="m-auto rounded-lg bg-black px-5 py-2.5 text-sm font-medium text-white focus:outline-none">
-          En savoir plus
-        </button>
-      </div>
-    </div>
-    <div>
-      <img src="src/assets/images/Mask-group-7.jpg" alt="profil numéro 8" />
-      <div class="mt-3 mr-20 mb-5 grid grid-cols-1 justify-items-center">
-        <p>Grégoire MALITE</p>
-        <p class="mb-5">Peintre, Dessinateur</p>
-        <button type="button" class="m-auto rounded-lg bg-black px-5 py-2.5 text-sm font-medium text-white focus:outline-none">
-          En savoir plus
-        </button>
-      </div>
-    </div>
-    <div>
-      <img src="src/assets/images/Mask-group-8.jpg" alt="profil numéro 9" />
-      <div class="mt-3 mr-20 mb-5 grid grid-cols-1 justify-items-center">
-        <p>Lucie GARAH</p>
-        <p class="mb-5">Peintre, Sculpteur</p>
-        <button type="button" class="m-auto rounded-lg bg-black px-5 py-2.5 text-sm font-medium text-white focus:outline-none">
-          En savoir plus
-        </button>
-      </div>
-    </div>
-    <div>
-      <img src="src/assets/images/Mask-group-1.jpg" alt="profil numéro 10" />
-      <div class="mt-3 mb-5 mr-20 grid grid-cols-1 justify-items-center">
-        <p>Rania BACHA</p>
-        <p class="mb-5">Dessinatrice, dessinatrice graphique, scrupteur</p>
-        <button type="button" class="m-auto rounded-lg bg-black px-5 py-2.5 text-sm font-medium text-white focus:outline-none">
-          En savoir plus
-        </button>
-      </div>
-    </div>
+  <img class="mt-48" src="src/assets/images/hero_artistes.jpg" alt="hero page nos artistes" />
+
+  <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
+    <RouterLink to="/artiste" v-for="art in Dessinateur" :key="art"><Card :nom="art.nom" :image="art.image" /></RouterLink>
+  </div>
+
+  <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
+    <RouterLink to="/artiste" v-for="art in Peintre" :key="art"><Card :nom="art.nom" :image="art.image" /></RouterLink>
+  </div>
+  <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
+    <RouterLink to="/artiste" v-for="art in Animateur" :key="art"><Card :nom="art.nom" :image="art.image" /></RouterLink>
+  </div>
+
+  <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
+    <RouterLink to="/artiste" v-for="art in DessinateurGraphique" :key="art"><Card :nom="art.nom" :image="art.image" /></RouterLink>
   </div>
 </template>
+
+<script>
+import Card from "../components/Card.vue";
+
+import {
+  getFirestore,
+  collection,
+  doc,
+  query,
+  orderBy,
+  getDocs,
+  addDoc,
+  updateDoc,
+  deleteDoc,
+  onSnapshot,
+} from "https://www.gstatic.com/firebasejs/9.8.2/firebase-firestore.js";
+import {
+  getStorage, // Obtenir le Cloud Storage
+  ref, // Pour créer une référence à un fichier à uploader
+  getDownloadURL, // Permet de récupérer l'adress complète d'un fichier du Storage
+  uploadString, // Permet d'uploader sur le Cloud Storage une image en Base64
+} from "https://www.gstatic.com/firebasejs/9.8.2/firebase-storage.js";
+
+export default {
+  components: {
+    Card,
+  },
+  data() {
+    return {
+      listeArtistes: [],
+      qDessinateur: 1,
+      qPeintre: 2,
+      qDessinateurGraphique: 3,
+      qAnimateur: 4,
+    };
+  },
+  mounted() {
+    this.getArtistes();
+  },
+  methods: {
+    async getArtistes() {
+      const firestore = getFirestore();
+      const dbArt = collection(firestore, "Artistes");
+      const q = query(dbArt, orderBy("nom", "asc"));
+      await onSnapshot(q, (snapshot) => {
+        this.listeArtistes = snapshot.docs.map((doc) => ({
+          id: doc.id,
+          ...doc.data(),
+        }));
+        this.listeArtistes.forEach(function (personne) {
+          const storage = getStorage();
+          const spaceRef = ref(storage, "Artistes/" + personne.image);
+          getDownloadURL(spaceRef)
+            .then((url) => {
+              personne.image = url;
+            })
+            .catch((error) => {
+              console.log("erreur download url", error);
+            });
+        });
+      });
+    },
+  },
+
+  computed: {
+    Dessinateur() {
+      let query = this.qDessinateur;
+      return this.listeArtistes.filter(function (art) {
+        return art.metier.includes(query);
+      });
+    },
+    Peintre() {
+      let query = this.qPeintre;
+      return this.listeArtistes.filter(function (art) {
+        return art.metier.includes(query);
+      });
+    },
+    Animateur() {
+      let query = this.qAnimateur;
+      return this.listeArtistes.filter(function (art) {
+        return art.metier.includes(query);
+      });
+    },
+    DessinateurGraphique() {
+      let query = this.qDessinateurGraphique;
+      return this.listeArtistes.filter(function (art) {
+        return art.metier.includes(query);
+      });
+    },
+  },
+};
+</script>

@@ -3,18 +3,19 @@ import App from './App.vue'
 import router from './router'
 import './index.css'
 
-// Import fonction d'initialisation du SDK Firebase
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-app.js";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyAj9AVn_ekzFp3Ac1HVYxrzgsJEtGGBgG0",
-    authDomain: "mmi-1-firebase-vuejs3-1b15c.firebaseapp.com",
-    projectId: "mmi-1-firebase-vuejs3-1b15c",
-    storageBucket: "mmi-1-firebase-vuejs3-1b15c.appspot.com",
-    messagingSenderId: "403550274215",
-    appId: "1:403550274215:web:3eef3810e1c8c3c7981182"
+    apiKey: "AIzaSyCK4PpGx8RcAnFgaibh7AgkiA5HvUTdQYQ",
+    authDomain: "kidsart-projet-s2.firebaseapp.com",
+    projectId: "kidsart-projet-s2",
+    storageBucket: "kidsart-projet-s2.appspot.com",
+    messagingSenderId: "984383588019",
+    appId: "1:984383588019:web:dbe5e78250673f20db52c6"
 };
+
 
 // Initialize Firebase
 const appFirebase = initializeApp(firebaseConfig);
@@ -24,6 +25,8 @@ const app = createApp(App)
 app.use(router)
 
 app.mount('#app')
+
+
 
 
 

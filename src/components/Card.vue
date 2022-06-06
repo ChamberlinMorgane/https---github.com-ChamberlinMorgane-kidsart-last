@@ -3,7 +3,6 @@
     <img class="rounded-sm" :src="image" alt="artiste" />
     <div class="mt-3 mr-20 grid grid-cols-1 justify-items-center">
       <p>{{ nom }}</p>
-      <p>{{ metier }}</p>
       <button type="button" class="m-auto rounded-lg bg-black px-5 py-2.5 text-sm font-medium text-white focus:outline-none">
         En savoir plus
       </button>
@@ -18,7 +17,6 @@ export default {
   props: {
     nom: String,
     image: String,
-    metier: String,
   },
   components: {},
 };
