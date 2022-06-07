@@ -9,6 +9,9 @@ import MentionslegalesView from '../views/MentionslegalesView.vue'
 import InscriptionsView from '../views/InscriptionsView.vue'
 import MoncompteView from '../views/MoncompteView.vue'
 import NosartistesView from '../views/NosartistesView.vue'
+import CreateView from '../views/artiste/CreateView.vue'
+import UpdateView from '../views/artiste/UpdateView.vue'
+import DeleteView from '../views/artiste/DeleteView.vue'
 
 
 const router = createRouter({
@@ -24,6 +27,9 @@ const router = createRouter({
     { path: '/mentionslegales', name: 'MentionslegalesView', component: MentionslegalesView },
     { path: '/moncompte', name: 'MoncompteView', component: MoncompteView },
     { path: '/nosartistes', name: 'NosartistesView', component: NosartistesView },
+    { path: '/createview', name: 'CreateView', component: CreateView },
+    { path: '/delete/:id', name: 'DeleteView', component: DeleteView },
+    { path: '/update/:id', name: 'UpdateView', component: UpdateView },
 
   ]
 })
