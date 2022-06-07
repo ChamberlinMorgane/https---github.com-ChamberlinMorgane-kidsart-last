@@ -5,7 +5,7 @@
     !
   </p>
 
-  <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
+  <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-4">
     <RouterLink to="/artiste" v-for="col in listeColoriages" :key="col"><Card2 :image="col.image" /></RouterLink>
   </div>
 </template>

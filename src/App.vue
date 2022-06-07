@@ -1,3 +1,5 @@
+
+
 <template>
   <header class="bg-fondsite mb-10 h-3">
     <Header class="hidden lg:flex" />
@@ -6,7 +8,7 @@
 
   <RouterView />
 
-  <footer class="bg-fondsite h-64 text-white">
+  <footer class="bg-fond1footer h-64 text-white">
     <Footer class="hidden lg:block" />
     <Footermobile class="lg:hidden" />
   </footer>
@@ -14,10 +16,11 @@
 
 
 <script>
-import Header from "./components/layout/Header.vue";
-import Headermobile from "./components/layout/Headermobile.vue";
-import Footer from "./components/layout/Footer.vue";
-import Footermobile from "./components/layout/Footermobile.vue";
+import { RouterLink, RouterView } from "vue-router";
+import Footer from "./layout/Footer.vue";
+import Footermobile from "./layout/Footermobile.vue";
+import Header from "./layout/Header.vue";
+import Headermobile from "./layout/Headermobile.vue";
 
 import { getFirestore, collection, onSnapshot, query, where } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-firestore.js";
 
