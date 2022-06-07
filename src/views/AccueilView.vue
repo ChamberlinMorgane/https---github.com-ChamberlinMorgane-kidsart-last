@@ -1,17 +1,17 @@
 <template>
   <main>
-    <h1 class="mx-24 mt-24 font-acme text-8xl">Kid’sArt</h1>
-    <h2 class="mx-24 mt-4 font-mulish text-3xl">
+    <h1 class="mt-96 font-acme text-5xl lg:ml-28 lg:text-8xl">Kid’sArt</h1>
+    <h2 class="mt-20 font-mulish text-3xl lg:ml-14">
       Combinez la créativité de vos enfants et <br />
       le talent de nos artistes !
     </h2>
-    <img src="src/assets/images/img-accueil.jpg" class="mx-96" alt="famille" />
+    <img src="src/assets/images/img-accueil.jpg" class="ml-auto lg:mr-24" alt="famille" />
 
     <p class="mt-4 text-center font-mulish text-2xl">“Un véritable artiste est un artiste qui touche tout le monde.”</p>
     <p class="mt-4 text-center font-mulish text-2xl">Bernard Werber</p>
 
     <h2 class="mx-24 mt-28 text-3xl">Kid’sArt qu’est-ce que c’est ?</h2>
-    <div class="mx-20 mb-24 -mt-3 h-4 w-96 bg-orange-fonce p-px"></div>
+    <div class="w-4/4 mx-20 mb-24 -mt-3 h-4 bg-orange-fonce p-px"></div>
 
     <div class="z-20 float-right -mb-36">
       <div class="z-10 mx-4 mr-2 mb-2 rounded-lg bg-orange-fonce py-2.5">
@@ -27,7 +27,7 @@
       </div>
     </div>
 
-    <img src="src/assets/images/index-image.jpg" class="-z-10 mx-20" alt="artiste" />
+    <img src="src/assets/images/index-image.jpg" class="-z-10 mr-auto" alt="artiste" />
 
     <div class="mx-auto max-w-lg">
       <iframe
@@ -40,7 +40,7 @@
     </div>
 
     <div class="flex flex-col items-center justify-center">
-      <p class="my-7 text-center">
+      <p class="my-7 text-center lg:text-xl">
         Cette oeuvre a été réalisé par l’artiste Morgane Monary. L’attrapge rêve signifie l’évolution du rêve, par le biais de
         l’intensité...
       </p>
@@ -53,7 +53,7 @@
     </div>
 
     <h2 class="mx-24 mt-28 text-3xl">Mais comment ça marche ?</h2>
-    <div class="mx-20 -mt-3 h-4 w-96 bg-orange-fonce p-px"></div>
+    <div class="w-4/4 mx-20 -mt-3 h-4 bg-orange-fonce p-px"></div>
 
     <p class="mx-40 mt-8 font-bold">C’est très simple !</p>
 
@@ -64,7 +64,7 @@
       <img src="../assets/images/crayon.jpg" alt="crayon de papier" class="w-20" />
     </div>
 
-    <nav class="mx-48 -mt-24">
+    <nav class="mx-48 -mt-24 text-xs lg:text-xl">
       <ul>
         <li>Il suffit de choisir un dessin que vous désirez transformer</li>
         <li>De contacter l’artiste que vous désirez sur notre site en jugeant si leurs compétences sont à la hauteur de vos attentes</li>

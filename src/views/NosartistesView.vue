@@ -3,16 +3,11 @@
 
   <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
     <RouterLink to="/artiste" v-for="art in Dessinateur" :key="art"><Card :nom="art.nom" :image="art.image" /></RouterLink>
-  </div>
 
-  <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
     <RouterLink to="/artiste" v-for="art in Peintre" :key="art"><Card :nom="art.nom" :image="art.image" /></RouterLink>
-  </div>
-  <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
-    <RouterLink to="/artiste" v-for="art in Animateur" :key="art"><Card :nom="art.nom" :image="art.image" /></RouterLink>
-  </div>
 
-  <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
+    <RouterLink to="/artiste" v-for="art in Animateur" :key="art"><Card :nom="art.nom" :image="art.image" /></RouterLink>
+
     <RouterLink to="/artiste" v-for="art in DessinateurGraphique" :key="art"><Card :nom="art.nom" :image="art.image" /></RouterLink>
   </div>
 </template>
