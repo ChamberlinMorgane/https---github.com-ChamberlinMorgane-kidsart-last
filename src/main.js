@@ -3,6 +3,9 @@ import App from './App.vue'
 import router from './router'
 import './index.css'
 
+// Import de mitt
+import mitt from 'mitt';
+
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-app.js";
 
@@ -21,6 +24,12 @@ const firebaseConfig = {
 const appFirebase = initializeApp(firebaseConfig);
 
 const app = createApp(App)
+
+// Création d'un emetteur mitt exportable
+export const emitter = mitt();
+// créer l'émetteur comme propriété globale
+// de l'application
+app.config.globalProperties.emitter = emitter;
 
 app.use(router)
 
