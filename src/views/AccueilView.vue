@@ -5,16 +5,16 @@
       Combinez la créativité de vos enfants et <br />
       le talent de nos artistes !
     </h2>
-    <img src="src/assets/images/img-accueil.jpg" class="ml-auto lg:mr-24" alt="famille" />
+    <img src="/images/img-accueil.jpg" class="ml-auto lg:mr-24" alt="famille" />
 
     <p class="mt-4 text-center font-mulish text-2xl">“Un véritable artiste est un artiste qui touche tout le monde.”</p>
     <p class="mt-4 text-center font-mulish text-2xl">Bernard Werber</p>
 
     <h2 class="mx-24 mt-28 text-3xl">Kid’sArt qu’est-ce que c’est ?</h2>
-    <div class="w-4/4 mx-20 mb-24 -mt-3 h-4 bg-orange-fonce p-px"></div>
+    <div class="w-4/4 bg-orange-fonce mx-20 mb-24 -mt-3 h-4 p-px"></div>
 
     <div class="z-20 float-right -mb-36">
-      <div class="z-10 mx-4 mr-2 mb-2 rounded-lg bg-orange-fonce py-2.5">
+      <div class="bg-orange-fonce z-10 mx-4 mr-2 mb-2 rounded-lg py-2.5">
         <p class="mx-20 mt-8">
           Vous souhaitez convertir les dessins de vos enfants en <br />
           guise de souvenirs ou d’élargir vos connaissances en art ? <br />
@@ -27,7 +27,7 @@
       </div>
     </div>
 
-    <img src="src/assets/images/index-image.jpg" class="-z-10 mr-auto" alt="artiste" />
+    <img src="/images/index-image.jpg" class="-z-10 mr-auto" alt="artiste" />
 
     <div class="mx-auto max-w-lg">
       <iframe
@@ -46,22 +46,22 @@
       </p>
       <button
         type="button"
-        class="bg-orange-clair mx-4 mr-2 mb-2 rounded-lg border-2 border-black px-9 py-2.5 text-sm font-medium text-black"
+        class="mx-4 mr-2 mb-2 rounded-lg border-2 border-black bg-orange-clair px-9 py-2.5 text-sm font-medium text-black"
       >
         En savoir plus
       </button>
     </div>
 
     <h2 class="mx-24 mt-28 text-3xl">Mais comment ça marche ?</h2>
-    <div class="w-4/4 mx-20 -mt-3 h-4 bg-orange-fonce p-px"></div>
+    <div class="w-4/4 bg-orange-fonce mx-20 -mt-3 h-4 p-px"></div>
 
     <p class="mx-40 mt-8 font-bold">C’est très simple !</p>
 
     <div class="mx-28 mt-16">
-      <img src="../assets/images/crayon.jpg" alt="crayon de papier" class="w-20" />
-      <img src="../assets/images/crayon.jpg" alt="crayon de papier" class="w-20" />
-      <img src="../assets/images/crayon.jpg" alt="crayon de papier" class="w-20" />
-      <img src="../assets/images/crayon.jpg" alt="crayon de papier" class="w-20" />
+      <img src="/images/crayon.jpg" alt="crayon de papier" class="w-20" />
+      <img src="/images/crayon.jpg" alt="crayon de papier" class="w-20" />
+      <img src="/images/crayon.jpg" alt="crayon de papier" class="w-20" />
+      <img src="/images/crayon.jpg" alt="crayon de papier" class="w-20" />
     </div>
 
     <nav class="mx-48 -mt-24 text-xs lg:text-xl">
@@ -76,9 +76,11 @@
     <p class="mx-24 mt-9">Il n’y a plus qu’’offrir à vos proches ou l’accrocher à votre mur</p>
 
     <div class="mt-20 mb-20 flex flex-col items-center justify-center">
-      <button type="button" class="mb-2 rounded-lg border-2 border-black bg-white px-9 py-5 text-2xl font-medium text-black">
-        Je veux m'inscrire !
-      </button>
+      <a href="inscriptions"
+        ><button type="button" class="mb-2 rounded-lg border-2 border-black bg-white px-9 py-5 text-2xl font-medium text-black">
+          Je veux m'inscrire !
+        </button></a
+      >
     </div>
   </main>
 </template>

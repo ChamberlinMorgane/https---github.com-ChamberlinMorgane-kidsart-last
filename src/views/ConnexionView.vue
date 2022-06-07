@@ -1,14 +1,14 @@
 <template>
   <main>
-    <body class="mt-48">
-      <form @submit.prevent="onCnx">
-        class="text-Primaire absolute z-10 mt-64 content-center align-middle">
+    <body class="container mx-auto mt-20 flex max-w-sm flex-1 flex-col items-center justify-center">
+      <h2 class="pt-20 text-3xl font-bold">Connexion</h2>
+      <form @submit.prevent="onCnx" class="text-Primaire z-10 mt-20 mb-96 content-center align-middle">
         <div class="input-group mb-3">
           <div class="input-group-prepend">
             <button class="btn btn-dark"></button>
           </div>
           <input
-            class="form-control bg-Primaire text-Secondaire rounded-14xl z-30 ml-16 h-10 w-56 border-2 align-middle"
+            class="form-control rounded-14xl rounded-10xl z-30 ml-16 h-10 w-96 border-2 bg-yellow-100"
             placeholder="E-mail"
             type="text"
             v-model="user.email"
@@ -20,81 +20,32 @@
             <button class="btn btn-dark"></button>
           </div>
           <input
-            class="form-control rounded-14xl bg-Primaire text-Secondaire h-10 w-56"
+            class="form-control rounded-14xl rounded-10xl h-10 w-96 border-2 bg-yellow-100"
             placeholder="Mot de passe"
-            :type="password"
+            type="type"
             v-model="user.password"
             required
           />
         </div>
         <div>
-          <div class="input-group-after">
-            <button class="btn btn-light" @click.prevent="affiche()"><EyeIcon /></button>
-          </div>
+          <button @click.prevent="affiche()">
+            <i></i>
+          </button>
         </div>
         <div class="alert alert-warning mb-3 text-center">
           {{ message }}
         </div>
-        <div>
-          <button
-            class="float-right h-14 w-48 rounded-2xl border-2 border-white bg-black px-6 align-middle text-xl text-white"
-            type="submit"
-          >
+        <div class="mt-6 flex items-center justify-center gap-x-9">
+          <button class="h-14 w-48 rounded-2xl border-2 border-white bg-black px-6 align-middle text-xl text-white" type="submit">
             Se connecter
           </button>
           <button
-            class="float-right h-14 w-48 rounded-2xl border-2 border-black bg-red-400 px-6 align-middle text-xl text-black"
+            class="h-14 w-48 rounded-2xl border-2 border-black bg-red-400 px-6 align-middle text-xl text-black"
             type="button"
             @click="onDcnx()"
           >
             Se déconnecter
           </button>
-        </div>
-      </form>
-
-      <h5 class="text-black">S'inscrire</h5>
-
-      <form>
-        <div class="card-body">
-          <div class="row">
-            <div class="">
-              <div class="">
-                <span class="">Login</span>
-              </div>
-              <input class="" placeholder="Login" required />
-            </div>
-
-            <div class="" v-if="imageData">
-              <img class="" :src="imageData" />
-            </div>
-
-            <div class="">
-              <div class="">
-                <span class="">Photo</span>
-              </div>
-              <div class="">
-                <input type="file" class="" ref="file" id="file" @change="previewImage" />
-                <label class="" for="file">Sélectionner l'image</label>
-              </div>
-            </div>
-            <div class="">
-              <div class="">
-                <span class="">Email</span>
-              </div>
-              <input class="" placeholder="Adresse mail" type="email" required />
-            </div>
-
-            <div class="">
-              <div class="">
-                <span class="">Mot de passe</span>
-              </div>
-              <input class="" placeholder="Mot de passe" required />
-            </div>
-          </div>
-        </div>
-
-        <div class="">
-          <button type="submit" class="">Créer Compte</button>
         </div>
       </form>
     </body>

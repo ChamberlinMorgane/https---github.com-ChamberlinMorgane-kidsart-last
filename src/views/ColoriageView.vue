@@ -1,5 +1,5 @@
 <template>
-  <img class="mt-48" src="src/assets/images/hero_coloriage.jpg" alt="image hero" />
+  <img class="mt-48" src="/images/hero_coloriage.jpg" alt="image hero" />
   <p class="mt-20 mb-14 text-center text-lg font-bold uppercase">
     Des feutres, des crayons de couleurs, et c’est parti ! Téléchargez, imprimez puis Coloriez gratuitement des coloriages pour vos enfants
     !

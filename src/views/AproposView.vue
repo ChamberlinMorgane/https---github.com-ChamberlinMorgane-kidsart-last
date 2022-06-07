@@ -1,14 +1,14 @@
 <template>
-  <img class="mt-48 w-full" src="src/assets/images/hero_apropos.jpg" alt="hero a propos" />
+  <img class="mt-48 w-full" src="/images/hero_apropos.jpg" alt="hero a propos" />
   <h4 class="mt-12 mb-12 flex justify-center text-2xl">Qui sommes nous ?</h4>
-  <img class="m-auto mb-4 flex h-2 justify-center" src="src/assets/images/apropos-bas.jpg" alt="petite bare texte" />
+  <img class="m-auto mb-4 flex h-2 justify-center" src="/images/apropos-bas.jpg" alt="petite bare texte" />
   <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2">
     <div>
-      <img src="src/assets/images/image-avatar-morgane.jpg" alt="image bonhomme morgane" />
+      <img src="/images/image-avatar-morgane.jpg" alt="image bonhomme morgane" />
       <p class="m-auto flex justify-center lg:text-xl">Morgane CHAMBERLIN</p>
     </div>
     <div>
-      <img src="src/assets/images/image-avatar-marion.jpg" alt="image bonhomme marion" />
+      <img src="/images/image-avatar-marion.jpg" alt="image bonhomme marion" />
       <p class="m-auto flex justify-center lg:text-xl">Marion GILLOT</p>
     </div>
   </div>
@@ -18,14 +18,14 @@
     l'IUT de Montbeliard(25)
   </p>
   <h4 class="mb-5 mt-8 flex justify-center text-2xl">Pourquoi cette innovation</h4>
-  <img class="m-auto mb-4 flex h-2 w-64 justify-center" src="src/assets/images/apropos-bas.jpg" alt="petite bare texte" />
+  <img class="m-auto mb-4 flex h-2 w-64 justify-center" src="/images/apropos-bas.jpg" alt="petite bare texte" />
 
   <p class="m-auto mt-10 flex justify-center text-center lg:text-xl">
     Fait dans le cadre d'un exercice pédagogique, dont le sujet est de créer une application innovante. C'est pourquoi nous avons penser
     lier familles et artistes afin d'apporter au dessin de vos enfants, la créativité des artistes.
   </p>
   <h4 class="mb-3 mt-8 flex justify-center text-2xl">Comment assurons-nous que ce site reste sur pour nos utilisateurs</h4>
-  <img class="m-auto mb-4 flex h-2 w-2/6 justify-center" src="src/assets/images/apropos-bas.jpg" alt="petite bare texte" />
+  <img class="m-auto mb-4 flex h-2 w-2/6 justify-center" src="/images/apropos-bas.jpg" alt="petite bare texte" />
   <p class="m-auto mt-10 flex justify-center text-center lg:text-xl">
     Nous surveillons les activités sur le site pour la sécurité de chacun. Malheureusement, comme nous ne pouvons pas être partout en même
     temps nous avons d'autres mesures:
