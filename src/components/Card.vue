@@ -1,7 +1,7 @@
 <template>
-  <div class="flex">
-    <img class="rounded-sm" :src="image" alt="artiste" />
-    <div class="mt-3 mr-20 grid grid-cols-1 justify-items-center">
+  <div class="flex flex-col">
+    <img class="w-56 rounded-sm" :src="image" alt="artiste" />
+    <div class="m-auto mb-10 mt-3 grid grid-cols-1 justify-items-center">
       <p>{{ nom }}</p>
       <button type="button" class="m-auto rounded-lg bg-black px-5 py-2.5 text-sm font-medium text-white focus:outline-none">
         En savoir plus
