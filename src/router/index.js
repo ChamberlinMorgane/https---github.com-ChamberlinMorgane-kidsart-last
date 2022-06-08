@@ -17,6 +17,7 @@ import Page404 from '../views/Page404.vue'
 import Commande1View from '../views/Commande1View.vue'
 import Commande2View from '../views/Commande2View.vue'
 import Commande3View from '../views/Commande3View.vue'
+import TchatView from '../views/TchatView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -39,6 +40,7 @@ const router = createRouter({
     { path: '/commande1', name: 'Commande1View', component: Commande1View },
     { path: '/commande2', name: 'Commande2View', component: Commande2View },
     { path: '/commande3', name: 'Commande3View', component: Commande3View },
+    { path: '/messagerie', name: 'TchatView', component: TchatView },
 
 
   ]
