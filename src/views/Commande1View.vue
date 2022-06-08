@@ -1,6 +1,6 @@
 <template>
-  <main>
-    <img src="images/hero_commande.jpg" class="mt-44" alt="bandeau commande" />
+  <main class="min-h-screen">
+    <img src="images/hero-commande.jpg" class="mt-44" alt="bandeau commande" />
 
     <h2 class="mx-24 mt-10 mb-10 text-lg">Panier > Coordonnées > Payer</h2>
 
@@ -13,10 +13,12 @@
       </div>
     </div>
 
-    <div class="input-group-prepend mt-2">
-      <span class="input-group-text">Prix</span>
+    <div class="flex">
+      <img class="h-auto w-32" src="images/attrape-reve-commande.svg" alt="dessin" />
+      <p>55€</p>
+      <img class="w-32" src="images/Quantités.svg" alt="hero commmande" />
+      <p>55€</p>
     </div>
-    <input type="number" class="mb-5 w-16 rounded-5xl py-2 px-3 text-black" v-model="concerts.prix" required />
   </main>
 </template>
 
