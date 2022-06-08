@@ -21,7 +21,7 @@
           <div class="mt-14 grid">
             <span v-if="avatar != null" class="mr-3">
               <img class="avatar h-10 w-auto" :src="avatar" />
-              <RouterLink to="/" class="text-xs">{{ name }}</RouterLink>
+              <RouterLink to="moncompte" class="text-xs">{{ name }}</RouterLink>
             </span>
           </div>
           <div v-if="avatar != null" class="hidden pt-9">
