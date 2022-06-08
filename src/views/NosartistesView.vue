@@ -1,13 +1,9 @@
 <template>
   <img class="mt-48" src="/images/hero_artistes.jpg" alt="artistes" />
-  <RouterLink to="/artiste" v-for="art in Dessinateur" :key="art"><Card :nom="art.nom" :image="art.image" /></RouterLink>
-  <RouterLink to="/artiste" v-for="art in Peintre" :key="art"><Card :nom="art.nom" :image="art.image" /></RouterLink>
-  <RouterLink to="/artiste" v-for="art in Animateur" :key="art"><Card :nom="art.nom" :image="art.image" /></RouterLink>
-  <RouterLink to="/artiste" v-for="art in DessinateurGraphique" :key="art"><Card :nom="art.nom" :image="art.image" /></RouterLink>
-
-  
+  <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
+    <RouterLink to="/artiste" v-for="art in listeArtistes" :key="art"><Card :nom="art.nom" :image="art.image" /></RouterLink>
+  </div>
 </template>
-
 <script>
 import Card from "../components/Card.vue";
 
@@ -37,10 +33,6 @@ export default {
   data() {
     return {
       listeArtistes: [],
-      qDessinateur: 1,
-      qPeintre: 2,
-      qDessinateurGraphique: 3,
-      qAnimateur: 4,
     };
   },
   mounted() {
@@ -50,7 +42,7 @@ export default {
     async getArtistes() {
       const firestore = getFirestore();
       const dbArt = collection(firestore, "Artistes");
-      const q = query(dbArt, orderBy("nom", "asc"));
+      const q = query(dbArt, orderBy("image", "asc"));
       await onSnapshot(q, (snapshot) => {
         this.listeArtistes = snapshot.docs.map((doc) => ({
           id: doc.id,
@@ -71,31 +63,8 @@ export default {
     },
   },
 
-  computed: {
-    Dessinateur() {
-      let query = this.qDessinateur;
-      return this.listeArtistes.filter(function (art) {
-        return art.metier.includes(query);
-      });
-    },
-    Peintre() {
-      let query = this.qPeintre;
-      return this.listeArtistes.filter(function (art) {
-        return art.metier.includes(query);
-      });
-    },
-    Animateur() {
-      let query = this.qAnimateur;
-      return this.listeArtistes.filter(function (art) {
-        return art.metier.includes(query);
-      });
-    },
-    DessinateurGraphique() {
-      let query = this.qDessinateurGraphique;
-      return this.listeArtistes.filter(function (art) {
-        return art.metier.includes(query);
-      });
-    },
-  },
+  computed: {},
 };
 </script>
+
+
