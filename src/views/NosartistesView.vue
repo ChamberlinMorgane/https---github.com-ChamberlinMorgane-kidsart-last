@@ -4,6 +4,8 @@
   <RouterLink to="/artiste" v-for="art in Peintre" :key="art"><Card :nom="art.nom" :image="art.image" /></RouterLink>
   <RouterLink to="/artiste" v-for="art in Animateur" :key="art"><Card :nom="art.nom" :image="art.image" /></RouterLink>
   <RouterLink to="/artiste" v-for="art in DessinateurGraphique" :key="art"><Card :nom="art.nom" :image="art.image" /></RouterLink>
+
+  
 </template>
 
 <script>

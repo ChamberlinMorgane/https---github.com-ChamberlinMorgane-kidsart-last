@@ -16,13 +16,29 @@
 
     <div class="ml-auto mr-7 flex gap-x-4">
       <RouterLink to="/commande1"><img src="images/commande.png" class="mt-7 h-8 w-8" /></RouterLink>
-      <RouterLink to="/moncompte"><img src="images/compte.png" class="mt-7 h-8 w-8" /></RouterLink>
+      <div class="flex flex-col justify-center hover:border-b-4 hover:border-b-white">
+        <RouterLink class="block py-2 px-4" to="/">
+          <div class="grid">
+            <span v-if="avatar != null" class="mr-3">
+              <img class="avatar h-10 w-auto" :src="avatar" />
+              <RouterLink to="/" class="text-xs">{{ name }}</RouterLink>
+            </span>
+          </div>
+          <div v-if="avatar != null" class="hidden pt-9">
+            <Users class="text-Noirr"></Users>
+          </div>
+          <div v-else class="pt-9">
+            <Users class="text-Noirr"></Users>
+          </div>
+        </RouterLink>
+      </div>
     </div>
   </header>
 </template>
 
 
 <script>
+import Users from "../components/Users.vue";
 // Fonctions Firestore
 import { getFirestore, collection, onSnapshot, query, where } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-firestore.js";
 
@@ -37,7 +53,7 @@ import { emitter } from "../main";
 
 export default {
   name: "App",
-  components: {},
+  components: { Users },
   data() {
     return {
       MenuOpen: false,
