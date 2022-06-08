@@ -85,7 +85,7 @@
                   type="submit"
                   class="mx-4 rounded-lg border-2 border-black bg-orange-clair px-20 py-1 text-sm font-medium text-black"
                 >
-                  <RouterLink to="/commande3">Payer</RouterLink>
+                  <a href="commande3">Payer</a>
                 </button>
               </div>
             </div>

@@ -2,58 +2,39 @@
   <main>
     <div class="min-w-screen flex min-h-screen items-center justify-center bg-gray-200 px-5 pb-10 pt-16">
       <div class="mx-auto w-full rounded-lg bg-white p-5 text-gray-700 shadow-lg" style="max-width: 600px">
-        <div class="w-full pt-1 pb-5">
-          <div
-            class="
-              mx-auto
-              -mt-16
-              flex
-              h-20
-              w-20
-              items-center
-              justify-center
-              overflow-hidden
-              rounded-full
-              bg-indigo-500
-              text-white
-              shadow-lg
-            "
-          >
-            <i class="mdi mdi-credit-card-outline text-3xl"></i>
-          </div>
-        </div>
+        <div class="w-full pt-1 pb-5"></div>
         <div class="mb-10">
-          <h1 class="text-center text-xl font-bold uppercase">Secure payment info</h1>
+          <h1 class="text-center text-xl font-bold uppercase">Paiement sécurisée information</h1>
         </div>
         <div class="-mx-2 mb-3 flex">
           <div class="px-2">
             <label for="type1" class="flex cursor-pointer items-center">
-              <input type="radio" class="form-radio h-5 w-5 text-indigo-500" name="type" id="type1" checked />
+              <input type="radio" class="form-radio h-5 w-5 text-orange-500" name="type" id="type1" checked />
               <img src="https://leadershipmemphis.org/wp-content/uploads/2020/08/780370.png" class="ml-3 h-8" />
             </label>
           </div>
           <div class="px-2">
             <label for="type2" class="flex cursor-pointer items-center">
-              <input type="radio" class="form-radio h-5 w-5 text-indigo-500" name="type" id="type2" />
+              <input type="radio" class="form-radio h-5 w-5 text-orange-500" name="type" id="type2" />
               <img src="https://www.sketchappsources.com/resources/source-image/PayPalCard.png" class="ml-3 h-8" />
             </label>
           </div>
         </div>
         <div class="mb-3">
-          <label class="mb-2 ml-1 text-sm font-bold">Name on card</label>
+          <label class="mb-2 ml-1 text-sm font-bold">Nom de la carte</label>
           <div>
             <input
-              class="mb-1 w-full rounded-md border-2 border-gray-200 px-3 py-2 transition-colors focus:border-indigo-500 focus:outline-none"
+              class="mb-1 w-full rounded-md border-2 border-gray-200 px-3 py-2 transition-colors focus:border-orange-500 focus:outline-none"
               placeholder="John Smith"
               type="text"
             />
           </div>
         </div>
         <div class="mb-3">
-          <label class="mb-2 ml-1 text-sm font-bold">Card number</label>
+          <label class="mb-2 ml-1 text-sm font-bold">Numéro carte</label>
           <div>
             <input
-              class="mb-1 w-full rounded-md border-2 border-gray-200 px-3 py-2 transition-colors focus:border-indigo-500 focus:outline-none"
+              class="mb-1 w-full rounded-md border-2 border-gray-200 px-3 py-2 transition-colors focus:border-orange-500 focus:outline-none"
               placeholder="0000 0000 0000 0000"
               type="text"
             />
@@ -61,7 +42,7 @@
         </div>
         <div class="-mx-2 mb-3 flex items-end">
           <div class="w-1/2 px-2">
-            <label class="mb-2 ml-1 text-sm font-bold">Expiration date</label>
+            <label class="mb-2 ml-1 text-sm font-bold">Date d'expiration</label>
             <div>
               <select
                 class="
@@ -74,21 +55,21 @@
                   px-3
                   py-2
                   transition-colors
-                  focus:border-indigo-500 focus:outline-none
+                  focus:border-orange-500 focus:outline-none
                 "
               >
-                <option value="01">01 - January</option>
-                <option value="02">02 - February</option>
-                <option value="03">03 - March</option>
-                <option value="04">04 - April</option>
+                <option value="01">01 - Janvier</option>
+                <option value="02">02 - Février</option>
+                <option value="03">03 - Mars</option>
+                <option value="04">04 - Avril</option>
                 <option value="05">05 - May</option>
-                <option value="06">06 - June</option>
-                <option value="07">07 - July</option>
-                <option value="08">08 - August</option>
-                <option value="09">09 - September</option>
-                <option value="10">10 - October</option>
-                <option value="11">11 - November</option>
-                <option value="12">12 - December</option>
+                <option value="06">06 - Juin</option>
+                <option value="07">07 - Juillet</option>
+                <option value="08">08 - Août</option>
+                <option value="09">09 - Septembre</option>
+                <option value="10">10 - Octobre</option>
+                <option value="11">11 - Novembre</option>
+                <option value="12">12 - Decembre</option>
               </select>
             </div>
           </div>
@@ -104,7 +85,7 @@
                 px-3
                 py-2
                 transition-colors
-                focus:border-indigo-500 focus:outline-none
+                focus:border-orange-500 focus:outline-none
               "
             >
               <option value="2020">2020</option>
@@ -121,10 +102,10 @@
           </div>
         </div>
         <div class="mb-10">
-          <label class="mb-2 ml-1 text-sm font-bold">Security code</label>
+          <label class="mb-2 ml-1 text-sm font-bold">Code de sécurité</label>
           <div>
             <input
-              class="mb-1 w-32 rounded-md border-2 border-gray-200 px-3 py-2 transition-colors focus:border-indigo-500 focus:outline-none"
+              class="mb-1 w-32 rounded-md border-2 border-gray-200 px-3 py-2 transition-colors focus:border-orange-500 focus:outline-none"
               placeholder="000"
               type="text"
             />
@@ -138,16 +119,16 @@
               w-full
               max-w-xs
               rounded-lg
-              bg-indigo-500
+              bg-orange-500
               px-3
               py-3
               font-semibold
-              text-white
-              hover:bg-indigo-700
-              focus:bg-indigo-700
+              text-black
+              hover:bg-orange-600
+              focus:bg-orange-600
             "
           >
-            <i class="mdi mdi-lock-outline mr-1"></i> PAY NOW
+            <i class="mdi mdi-lock-outline mr-1"></i> PAYER MAINTENANT
           </button>
         </div>
       </div>
