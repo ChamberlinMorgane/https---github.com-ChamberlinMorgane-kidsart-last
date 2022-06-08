@@ -1,7 +1,7 @@
 <template>
   <div class="container min-h-screen">
     <div class="card-header">
-      <h5 style="color: white">Chat</h5>
+      <h5 style="color: white">Messagerie</h5>
     </div>
 
     <div v-if="user == null">

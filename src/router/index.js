@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 import AccueilView from '../views/AccueilView.vue'
 import AproposView from '../views/AproposView.vue'
 import ColoriageView from '../views/ColoriageView.vue'
-import CommandeView from '../views/CommandeView.vue'
 import ConnexionView from '../views/ConnexionView.vue'
 import ContactView from '../views/ContactView.vue'
 import MentionslegalesView from '../views/MentionslegalesView.vue'
@@ -19,13 +18,13 @@ import Commande2View from '../views/Commande2View.vue'
 import Commande3View from '../views/Commande3View.vue'
 import TchatView from '../views/TchatView.vue'
 
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     { path: '/', name: 'AccueilView', component: AccueilView },
     { path: '/apropos', name: 'AproposView', component: AproposView },
     { path: '/coloriage', name: 'ColoriageView', component: ColoriageView },
-    { path: '/commande', name: 'CommandeView', component: CommandeView },
     { path: '/connexion', name: 'ConnexionView', component: ConnexionView },
     { path: '/contact', name: 'ContactView', component: ContactView },
     { path: '/inscriptions', name: 'InscriptionsView', component: InscriptionsView },
@@ -41,6 +40,8 @@ const router = createRouter({
     { path: '/commande2', name: 'Commande2View', component: Commande2View },
     { path: '/commande3', name: 'Commande3View', component: Commande3View },
     { path: '/messagerie', name: 'TchatView', component: TchatView },
+
+
 
 
   ]
