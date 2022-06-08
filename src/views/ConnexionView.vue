@@ -10,7 +10,7 @@
           <input
             class="form-control rounded-14xl rounded-10xl z-30 ml-16 h-10 w-96 border-2 bg-yellow-100"
             placeholder="E-mail"
-            type="text"
+            type="email"
             v-model="user.email"
             required
           />
@@ -22,7 +22,7 @@
           <input
             class="form-control rounded-14xl rounded-10xl h-10 w-96 border-2 bg-yellow-100"
             placeholder="Mot de passe"
-            type="type"
+            :type="type"
             v-model="user.password"
             required
           />
@@ -56,18 +56,22 @@
 
 <script>
 import { EyeIcon } from "@heroicons/vue/outline";
+
 // Import des fonction d'authentification
 import {
   getAuth, // Fonction générale d'authentification
   signInWithEmailAndPassword, // Se connecter avec un email + mot de passe
   signOut, // Se deconnecter
-} from "https://www.gstatic.com/firebasejs/9.8.2/firebase-auth.js";
+} from "https://www.gstatic.com/firebasejs/9.7.0/firebase-auth.js";
 
 //Import de l'emetteur depuis main.js
 import { emitter } from "../main.js";
 
 export default {
   name: "Connexion",
+  components: {
+    EyeIcon,
+  },
   data() {
     return {
       user: {
@@ -81,15 +85,10 @@ export default {
       imageData: null, // Image prévisualisée pour création compte
     };
   },
-  components: {
-    EyeIcon,
-  },
-
   mounted() {
     // Montage de la vue
     this.message = "User non connecté";
   },
-
   methods: {
     onCnx() {
       // Se connecter avec user et mot de passe
@@ -109,6 +108,8 @@ export default {
           this.message = "Erreur d'authentification";
         });
     },
+
+    // Se deconnecter
     onDcnx() {
       // Se déconnecter
       signOut(getAuth())
@@ -127,6 +128,7 @@ export default {
           console.log("erreur deconnexion ", error);
         });
     },
+
     // Affiche/masque le champs password
     affiche() {
       this.view = !this.view;

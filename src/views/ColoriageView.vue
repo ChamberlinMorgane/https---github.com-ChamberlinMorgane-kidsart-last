@@ -24,13 +24,13 @@ import {
   updateDoc,
   deleteDoc,
   onSnapshot,
-} from "https://www.gstatic.com/firebasejs/9.8.2/firebase-firestore.js";
+} from "https://www.gstatic.com/firebasejs/9.7.0/firebase-firestore.js";
 import {
   getStorage, // Obtenir le Cloud Storage
   ref, // Pour créer une référence à un fichier à uploader
   getDownloadURL, // Permet de récupérer l'adress complète d'un fichier du Storage
   uploadString, // Permet d'uploader sur le Cloud Storage une image en Base64
-} from "https://www.gstatic.com/firebasejs/9.8.2/firebase-storage.js";
+} from "https://www.gstatic.com/firebasejs/9.7.0/firebase-storage.js";
 
 export default {
   components: {

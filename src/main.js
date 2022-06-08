@@ -7,7 +7,7 @@ import './index.css'
 import mitt from 'mitt';
 
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-app.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-app.js";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {

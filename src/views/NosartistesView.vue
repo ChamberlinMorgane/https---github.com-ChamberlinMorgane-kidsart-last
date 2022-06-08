@@ -1,15 +1,9 @@
 <template>
-  <img class="mt-48" src="/images/hero_artistes.jpg" alt="hero page nos artistes" />
-
-  <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
-    <RouterLink to="/artiste" v-for="art in Dessinateur" :key="art"><Card :nom="art.nom" :image="art.image" /></RouterLink>
-
-    <RouterLink to="/artiste" v-for="art in Peintre" :key="art"><Card :nom="art.nom" :image="art.image" /></RouterLink>
-
-    <RouterLink to="/artiste" v-for="art in Animateur" :key="art"><Card :nom="art.nom" :image="art.image" /></RouterLink>
-
-    <RouterLink to="/artiste" v-for="art in DessinateurGraphique" :key="art"><Card :nom="art.nom" :image="art.image" /></RouterLink>
-  </div>
+  <img class="mt-48" src="/images/hero_artistes.jpg" alt="artistes" />
+  <RouterLink to="/artiste" v-for="art in Dessinateur" :key="art"><Card :nom="art.nom" :image="art.image" /></RouterLink>
+  <RouterLink to="/artiste" v-for="art in Peintre" :key="art"><Card :nom="art.nom" :image="art.image" /></RouterLink>
+  <RouterLink to="/artiste" v-for="art in Animateur" :key="art"><Card :nom="art.nom" :image="art.image" /></RouterLink>
+  <RouterLink to="/artiste" v-for="art in DessinateurGraphique" :key="art"><Card :nom="art.nom" :image="art.image" /></RouterLink>
 </template>
 
 <script>
@@ -26,13 +20,13 @@ import {
   updateDoc,
   deleteDoc,
   onSnapshot,
-} from "https://www.gstatic.com/firebasejs/9.8.2/firebase-firestore.js";
+} from "https://www.gstatic.com/firebasejs/9.7.0/firebase-firestore.js";
 import {
   getStorage, // Obtenir le Cloud Storage
   ref, // Pour créer une référence à un fichier à uploader
   getDownloadURL, // Permet de récupérer l'adress complète d'un fichier du Storage
   uploadString, // Permet d'uploader sur le Cloud Storage une image en Base64
-} from "https://www.gstatic.com/firebasejs/9.8.2/firebase-storage.js";
+} from "https://www.gstatic.com/firebasejs/9.7.0/firebase-storage.js";
 
 export default {
   components: {

@@ -1,14 +1,11 @@
 <template>
-  <div class="mt-10 mb-20 h-56 w-48 border-8 border-orange-fonce bg-orange-fonce">
+  <div class="border-orange-fonce bg-orange-fonce mt-10 mb-20 h-56 w-48 border-8">
     <img class="rounded-sm" :src="image" alt="coloriage" />>
     <div class="mt-2 flex h-5 w-5 flex-row gap-7">
       <PencilAltIcon />
       <p class="text-xs">colorier gratuitement</p>
       <HeartIcone />
     </div>
-    <a href="src/assets/images/images-2.pdf" download rel="noopener noreferrer" target="_blank"
-      ><img class="float-right mt-5 h-5 w-5" src="src/assets/icons/telecharger.png" alt="#"
-    /></a>
   </div>
 </template>
 

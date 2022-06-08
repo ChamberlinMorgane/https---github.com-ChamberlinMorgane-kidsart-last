@@ -12,7 +12,11 @@ import NosartistesView from '../views/NosartistesView.vue'
 import CreateView from '../views/artiste/CreateView.vue'
 import UpdateView from '../views/artiste/UpdateView.vue'
 import DeleteView from '../views/artiste/DeleteView.vue'
-
+import GuidedestyleView from '../views/GuidedestyleView.vue'
+import Page404 from '../views/Page404.vue'
+import Commande1View from '../views/Commande1View.vue'
+import Commande2View from '../views/Commande2View.vue'
+import Commande3View from '../views/Commande3View.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -30,6 +34,12 @@ const router = createRouter({
     { path: '/createview', name: 'CreateView', component: CreateView },
     { path: '/delete/:id', name: 'DeleteView', component: DeleteView },
     { path: '/update/:id', name: 'UpdateView', component: UpdateView },
+    { path: '/Guidestyle', name: 'GuidedestyleView', component: GuidedestyleView },
+    { path: '/:pathMatch(.*)', name: 'Page404', component: Page404 },
+    { path: '/commande1', name: 'Commande1View', component: Commande1View },
+    { path: '/commande2', name: 'Commande2View', component: Commande2View },
+    { path: '/commande3', name: 'Commande3View', component: Commande3View },
+
 
   ]
 })

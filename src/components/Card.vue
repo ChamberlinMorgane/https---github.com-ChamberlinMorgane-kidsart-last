@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="flex">
     <img class="rounded-sm" :src="image" alt="artiste" />
     <div class="mt-3 mr-20 grid grid-cols-1 justify-items-center">
       <p>{{ nom }}</p>
