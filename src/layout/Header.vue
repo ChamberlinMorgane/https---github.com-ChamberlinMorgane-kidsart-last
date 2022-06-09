@@ -17,7 +17,7 @@
     <div class="ml-auto mr-7 flex gap-x-4">
       <RouterLink to="/commande1"><img src="/icons/commande.svg" class="mt-8 h-8 w-8" /></RouterLink>
       <div class="flex flex-col justify-center hover:border-b-4 hover:border-b-white">
-        <RouterLink class="block py-2 px-4" to="/">
+        <RouterLink class="block py-2 px-4" to="moncompte">
           <div class="mt-20 grid">
             <span v-if="avatar != null" class="mr-3">
               <img class="avatar h-10 w-auto" :src="avatar" />

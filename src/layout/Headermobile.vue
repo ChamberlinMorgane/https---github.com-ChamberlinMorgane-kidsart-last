@@ -1,6 +1,7 @@
 <template>
   <header class="z-50 flex h-8 w-screen">
     <a href="/"><Logokidsart class="mx-7 my-5 mt-5 h-12 w-auto" /></a>
+
     <MenuAlt1Icon class="right-5 z-50 ml-auto mt-5 h-8 w-8" @click="MenuOpen = !MenuOpen" v-if="!MenuOpen" />
     <XIcon class="right-5 z-50 ml-auto mt-5 h-8 w-8" @click="MenuOpen = !MenuOpen" v-if="MenuOpen" />
     <nav
