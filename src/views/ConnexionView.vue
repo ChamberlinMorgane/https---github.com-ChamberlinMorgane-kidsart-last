@@ -98,7 +98,7 @@ export default {
           this.user = response.user;
           // Emission evenement de connexion
           emitter.emit("connectUser", { user: this.user });
-          console.log("user", this.user);
+          //console.log("user", this.user);
           // Mise à jour du message
           this.message = "User connecté : " + this.user.email;
         })

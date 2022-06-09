@@ -104,7 +104,7 @@ export default {
         deleteObject(docRef);
         docRef = ref(storage, "artistenew/" + this.artistenew.image);
         await uploadString(docRef, this.imageData, "data_url").then((snapshot) => {
-          console.log("Uploaded a base64 string", this.artistenew.image);
+          //console.log("Uploaded a base64 string", this.artistenew.image);
         });
       }
       const firestore = getFirestore();

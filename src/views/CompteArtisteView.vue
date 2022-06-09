@@ -23,23 +23,21 @@
             <p>réseaux</p>
             <p>sociaux</p>
           </div>
-          <a href="https://www.facebook.com/"><img class="h-auto w-10" src="icons/facebook-app.png" alt="icone instagram" /></a>
-          <a href="https://www.instagram.com/"><img class="h-auto w-10" src="icons/instagram.png" alt="icone facebook" /></a>
+          <a href="https://www.facebook.com/"><img class="h-auto w-6" src="icons/facebook-app.png" alt="icone instagram" /></a>
+          <a href="https://www.instagram.com/"><img class="h-auto w-6" src="icons/instagram.png" alt="icone facebook" /></a>
         </div>
       </div>
     </div>
 
     <div class="mb-12 grid grid-cols-2 gap-x-32">
       <div class="ml-9">
-        <h6 class="mb-8 text-2xl font-bold">Biographie</h6>
+        <h6 class="mx-24 mb-8 text-2xl font-bold">Biographie</h6>
 
-        <p>Bonjour, moi c'est Daniel, j'ai 25 ans et je suis artiste peintre.</p>
-        <p>
-          Mes prix dépendent de vos éxigences. Vous pourrez voir un tableau récapitulant mes prix pour certaines exigencent
-          <a href="">Voir tableaux</a>
+        <p class="mx-24">
+          Bonjour, moi c'est Daniel, j'ai 25 ans et je suis artiste peintre. Mes prix dépendent de vos éxigences. Vous pourrez voir un
+          tableau récapitulant mes prix pour certaines exigencent
         </p>
-
-        <p>Veuillez me contacter pour plus d'informations</p>
+        <p class="mx-24 mt-6 font-bold">Veuillez me contacter pour plus d'informations</p>
       </div>
       <div class="">
         <h6 class="text-2xl font-bold">Mes oeuvres :</h6>
@@ -48,6 +46,10 @@
           <img src="images/image-1.jpg" alt="oeuvre numéro 2" />
         </div>
       </div>
+    </div>
+    <div>
+      <h3 class="mx-32 text-2xl font-bold">Voici mes prix</h3>
+      <img src="images/tableaux-prix.jpg" alt="tarifs de l'artiste" class="mx-20 mb-44 w-3/6" />
     </div>
   </main>
 </template>
