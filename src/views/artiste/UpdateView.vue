@@ -23,9 +23,7 @@
         </div>
       </div>
       <div class="grid w-full grid-cols-2 place-items-center">
-        <button class="w-fit bg-slate-100 px-6 py-3 text-black" type="submit">
-          <RouterLink to="/nouveauxartistes">Modifier</RouterLink>
-        </button>
+        <button class="w-fit bg-slate-100 px-6 py-3 text-black" type="submit">Modifier</button>
         <button class="w-fit bg-slate-100 px-6 py-3 text-black" type="button">
           <RouterLink to="/nouveauxartistes">Annuler</RouterLink>
         </button>

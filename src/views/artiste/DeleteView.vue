@@ -13,7 +13,7 @@
         </div>
       </div>
       <div class="grid w-full grid-cols-2 place-items-center">
-        <button class="w-fipx-6 py-3 text-black" type="submit"><RouterLink to="/nouveauxartistes">Supprimer</RouterLink></button>
+        <button class="w-fipx-6 py-3 text-black" type="submit">Supprimer</button>
         <button class="w-fit px-6 py-3 text-black" type="button"><RouterLink to="/nouveauxartistes">Annuler</RouterLink></button>
       </div>
     </form>
