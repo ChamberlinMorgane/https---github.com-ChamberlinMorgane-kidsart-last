@@ -8,7 +8,7 @@ module.exports = {
       "colors": {
         "fond-promo-final": "#f4f4f4",
         "fond1footer": "#404040",
-        "bouton en savoir plus-promo": "#000000",
+        "bouton-en-savoir-plus-promo": "#000000",
         "titre-promo": "#214470",
         "jaune": "#ffd231",
         "boutons-clairs-final": "#f8eac8",
@@ -18,7 +18,7 @@ module.exports = {
         "bouton-rouge-déconnexion-final": "#e94545",
         "bouton-headerinscription-promo": "#feb84f",
         "bouton-promo-final": "#ffa461",
-        "bulles-oranges - final": "#ffa461",
+        "bulles-oranges-final": "#ffa461",
         "fond2footer": "#2f2f2f",
         "prénom-promo": "#e8c797",
         "orange-clair": "#ffa461"
