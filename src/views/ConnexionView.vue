@@ -1,7 +1,7 @@
 <template>
   <main>
     <body class="container mx-auto mt-20 flex max-w-sm flex-1 flex-col items-center justify-center">
-      <h2 class="md:text-1xl pt-20 font-bold sm:text-3xl lg:text-4xl">Connexion</h2>
+      <h2 class="pt-20 text-3xl font-bold">Connexion</h2>
       <form @submit.prevent="onCnx" class="text-Primaire z-10 mt-20 mb-96 content-center align-middle">
         <div class="input-group mb-3">
           <div class="input-group-prepend">

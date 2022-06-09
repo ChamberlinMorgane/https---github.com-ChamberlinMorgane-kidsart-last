@@ -1,7 +1,7 @@
 <template>
   <div class="container min-h-screen">
     <div class="mt-32 h-32 w-screen bg-[url('/images/rectangle-jaune.jpg')] bg-cover bg-no-repeat p-5">
-      <h1 class="md:text-1xl mt-9 ml-10 font-bold sm:text-3xl lg:text-4xl">Messagerie</h1>
+      <h1 class="md:text-1xl m-auto mt-9 ml-10 flex justify-center font-bold sm:text-3xl lg:text-6xl">Messagerie</h1>
     </div>
 
     <div v-if="user == null">
@@ -21,16 +21,16 @@
         <form class="mx-24 mb-3 mt-20 font-bold" @submit.prevent="createDisc()">
           <div class="input-group">
             <div class="input-group-prepend">
-              <span class="input-group-text">Nouveau fil avec {{ userSelected.login }}</span>
+              <span class="input-group-text bg-orange-300">Nouveau fil avec {{ userSelected.login }}</span>
             </div>
-            <input type="text" class="form-control" v-model="libelle" required />
-            <button class="btn btn-light" type="submit" title="Création">
+            <input type="text" class="form-control border-2 border-black" v-model="libelle" required />
+            <button class="text-black" type="submit" title="Création">
               <i class="fa fa-save fa-lg"></i>
             </button>
           </div>
         </form>
 
-        <h5 class="mx-24 mt-20 text-2xl font-bold text-black">Vos fils de discussion avec : {{ userSelected.login }}</h5>
+        <h5 class="mt-20 w-full bg-orange-300 text-2xl font-bold text-black">Vos fils de discussion avec : {{ userSelected.login }}</h5>
         <div v-if="chat.length > 0">
           <table class="text-light table">
             <tbody>

@@ -10,7 +10,7 @@
       <div class="flex flex-col gap-y-3">
         <p class="text-xl font-bold">Patricia</p>
         <p>Évaluation : Aucune</p>
-        <a href="update"><p class="h-8 w-auto bg-yellow-600 pr-3 pl-3 pt-1">Modifier mon profil</p></a>
+        <a href="modifiermonprofil"><p class="h-8 w-auto bg-yellow-600 pr-3 pl-3 pt-1">Modifier mon profil</p></a>
       </div>
 
       <div class="flex flex-col gap-y-4">

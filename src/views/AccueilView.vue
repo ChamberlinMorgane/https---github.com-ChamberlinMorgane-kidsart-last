@@ -30,7 +30,7 @@
       </div>
     </div>
 
-    <img src="/images/index-image.png" class="-z-30 mr-auto pb-52" alt="artiste" />
+    <img src="/images/index-image.png" class="-z-30 mr-auto w-2/6 pb-52" alt="artiste" />
 
     <div class="mx-auto max-w-lg">
       <iframe
