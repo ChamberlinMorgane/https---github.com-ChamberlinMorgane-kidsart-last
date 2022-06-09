@@ -8,6 +8,7 @@
         <li><RouterLink to="/inscriptions">S'inscrire</RouterLink></li>
         <li><RouterLink to="/connexion">Se connecter</RouterLink></li>
         <li><RouterLink to="/moncompte">Mon compte</RouterLink></li>
+        <li><RouterLink to="/messagerie">Messagerie</RouterLink></li>
       </ul>
 
       <ul class="mt-9 text-xs">
@@ -19,6 +20,7 @@
       <ul class="mt-5 text-xs">
         <li><RouterLink to="/contact">Contact</RouterLink></li>
         <li><RouterLink to="/contact">Nous contacter</RouterLink></li>
+        <li><RouterLink to="/nouveauxartistes">Ajouter un artiste</RouterLink></li>
         <li>Portection de la vie privée</li>
         <li>Nos artistes</li>
         <li>Portection de la vie privée</li>
