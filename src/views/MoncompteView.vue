@@ -1,6 +1,6 @@
 <template>
   <main class="mt-48">
-    <h2 class="m-auto mb-36 flex justify-center text-7xl font-bold text-black">MON COMPTE</h2>
+    <h2 class="md:text-1xl m-auto mb-36 flex justify-center font-bold text-black sm:text-3xl lg:text-4xl">MON COMPTE</h2>
     <div class="grid grid-cols-4 justify-items-center gap-x-20">
       <div class="flex flex-col">
         <img class="w-40" src="images/patricia.png" alt="image daniel curtice" />
@@ -10,7 +10,7 @@
       <div class="flex flex-col gap-y-3">
         <p class="text-xl font-bold">Patricia</p>
         <p>Évaluation : Aucune</p>
-        <a href="messagerie"><p class="h-8 w-auto bg-yellow-600 pr-3 pl-3 pt-1">Modifier mon profil</p></a>
+        <a href="update"><p class="h-8 w-auto bg-yellow-600 pr-3 pl-3 pt-1">Modifier mon profil</p></a>
       </div>
 
       <div class="flex flex-col gap-y-4">

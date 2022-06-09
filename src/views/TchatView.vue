@@ -1,24 +1,24 @@
 <template>
   <div class="container min-h-screen">
-    <div class="card-header">
-      <h5 style="color: white">Messagerie</h5>
+    <div class="mt-32 h-32 w-screen bg-[url('/images/rectangle-jaune.jpg')] bg-cover bg-no-repeat p-5">
+      <h1 class="md:text-1xl mt-9 ml-10 font-bold sm:text-3xl lg:text-4xl">Messagerie</h1>
     </div>
 
     <div v-if="user == null">
-      <h6 class="alert alert-warning text-center" role="alert">Vous devez être connecté pour utiliser le Chat !!</h6>
+      <h6 class="alert alert-warning text-center text-black" role="alert">Vous devez être connecté pour utiliser le Chat !!</h6>
     </div>
     <div v-else>
-      <div class="input-group mb-3">
+      <div class="input-group mx-24 mb-3 pt-20">
         <div class="input-group-prepend">
           <span class="input-group-text">Sélectionner un utilisateur</span>
         </div>
-        <select class="custom-select" v-model="userSelected" @change="selectUser">
+        <select class="custom-select border-2 border-black" v-model="userSelected" @change="selectUser">
           <option selected disabled value="">...</option>
           <option v-for="util in listeUsers" :key="util.uid" :value="util">{{ util.login }}</option>
         </select>
       </div>
       <div v-if="userSelected != null">
-        <form class="mb-3" @submit.prevent="createDisc()">
+        <form class="mx-24 mb-3 mt-20 font-bold" @submit.prevent="createDisc()">
           <div class="input-group">
             <div class="input-group-prepend">
               <span class="input-group-text">Nouveau fil avec {{ userSelected.login }}</span>
@@ -30,7 +30,7 @@
           </div>
         </form>
 
-        <h5>Vos fils de discussion avec : {{ userSelected.login }}</h5>
+        <h5 class="mx-24 mt-20 text-2xl font-bold text-black">Vos fils de discussion avec : {{ userSelected.login }}</h5>
         <div v-if="chat.length > 0">
           <table class="text-light table">
             <tbody>
@@ -53,9 +53,7 @@
             </tbody>
           </table>
         </div>
-        <div v-else>Aucun fil de discussion</div>
-
-        <hr style="background-color: white" />
+        <div v-else class="mx-24 mt-20 text-center font-bold">Aucun fil de discussion</div>
 
         <div v-if="discussion != null">
           <h5>Discussion : {{ discussion.libelle }}</h5>

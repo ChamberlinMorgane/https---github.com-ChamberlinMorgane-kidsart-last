@@ -1,9 +1,9 @@
 <template>
   <main>
-    <img src="images/hero_commande.jpg" class="mt-44" alt="bandeau commande" />
+    <img src="images/hero-commande.jpg" class="mt-44" alt="bandeau commande" />
 
     <h2 class="mx-24 mt-10 mb-10 text-lg">Panier > Coordonnées > Payer</h2>
-    <p class="m-20 text-center text-2xl font-bold">Coordonnées de livraison</p>
+    <p class="md:text-1xl m-20 text-center font-bold sm:text-3xl lg:text-4xl">Coordonnées de livraison</p>
 
     <div class="mt-10 mb-28 sm:mt-0">
       <div class="md:grid md:grid-cols-4 md:gap-6">
@@ -81,12 +81,14 @@
               <p class="mx-16 mb-3">Moyens de paiement</p>
               <div class="mb-9 flex">
                 <img src="images/paiement.jpg" alt="mode de paiement" class="mx-16 flex w-72" />
-                <button
-                  type="submit"
-                  class="mx-4 rounded-lg border-2 border-black bg-orange-clair px-20 py-1 text-sm font-medium text-black"
-                >
-                  <a href="commande3">Payer</a>
-                </button>
+                <RouterLink to="/commande3"
+                  ><button
+                    type="submit"
+                    class="mx-4 rounded-lg border-2 border-black bg-orange-clair px-20 py-1 text-sm font-medium text-black"
+                  >
+                    Payer
+                  </button>
+                </RouterLink>
               </div>
             </div>
           </form>

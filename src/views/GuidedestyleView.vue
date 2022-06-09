@@ -1,6 +1,6 @@
 <template>
   <main class="bg-white text-black">
-    <h1 class="mx-32 my-7 mb-20 pt-20 text-center text-4xl font-bold">Guide de styles</h1>
+    <h1 class="md:text-1xl mx-32 my-7 mb-20 pt-20 text-center font-bold sm:text-3xl lg:text-4xl">Guide de styles</h1>
 
     <h2 class="mx-32 my-7 text-2xl font-bold">Couleurs</h2>
     <h3 class="text-1xl mx-32 my-7">Couleurs principales</h3>

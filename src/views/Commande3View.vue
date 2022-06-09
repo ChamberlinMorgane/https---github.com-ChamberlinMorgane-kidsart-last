@@ -1,16 +1,16 @@
 <template>
   <main>
-    <div class="min-w-screen flex min-h-screen items-center justify-center bg-gray-200 px-5 pb-10 pt-16">
-      <div class="mx-auto w-full rounded-lg bg-white p-5 text-gray-700 shadow-lg" style="max-width: 600px">
+    <div class="min-w-screen bg-fond-site flex min-h-screen items-center justify-center px-5 pb-10">
+      <div class="mx-auto w-full rounded-lg bg-white p-5 text-black shadow-lg" style="max-width: 600px">
         <div class="w-full pt-1 pb-5"></div>
         <div class="mb-10">
-          <h1 class="text-center text-xl font-bold uppercase">Paiement sécurisée information</h1>
+          <h1 class="md:text-1xl font-bolduppercase text-center sm:text-3xl lg:text-4xl">Paiement sécurisée information</h1>
         </div>
         <div class="-mx-2 mb-3 flex">
           <div class="px-2">
             <label for="type1" class="flex cursor-pointer items-center">
               <input type="radio" class="form-radio h-5 w-5 text-orange-500" name="type" id="type1" checked />
-              <img src="https://leadershipmemphis.org/wp-content/uploads/2020/08/780370.png" class="ml-3 h-8" />
+              <img src="images/moyen-de-paiement-3.jpg" alt="mode de paiement" class="mx-16 flex w-44" />
             </label>
           </div>
           <div class="px-2">

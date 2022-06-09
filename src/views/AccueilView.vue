@@ -1,33 +1,36 @@
 <template>
   <main>
-    <h1 class="mt-96 font-acme text-5xl lg:ml-28 lg:text-8xl">Kid’sArt</h1>
-    <h2 class="mt-20 font-mulish text-3xl lg:ml-14">
-      Combinez la créativité de vos enfants et <br />
+    <h1 class="mt-44 font-acme text-5xl lg:ml-28 lg:text-8xl">Kid’sArt</h1>
+    <h1 class="md:text-1xl mt-20 font-roboto sm:text-3xl lg:ml-28 lg:text-3xl">
+      Combinez la créativité de vos enfants et<br />
       le talent de nos artistes !
-    </h2>
+    </h1>
+
     <img src="/images/img-accueil.jpg" class="ml-auto lg:mr-24" alt="famille" />
 
-    <p class="mt-4 text-center font-mulish text-2xl">“Un véritable artiste est un artiste qui touche tout le monde.”</p>
-    <p class="mt-4 text-center font-mulish text-2xl">Bernard Werber</p>
+    <p class="font-inter sm:text-1xl mt-4 text-center md:text-2xl lg:text-2xl">
+      “Un véritable artiste est un artiste qui touche tout le monde.”
+    </p>
+    <p class="font-inter sm:text-1xl mt-4 text-center md:text-2xl lg:text-2xl">Bernard Werber</p>
 
-    <h2 class="mx-24 mt-28 text-3xl">Kid’sArt qu’est-ce que c’est ?</h2>
-    <div class="w-4/4 bg-orange-fonce mx-20 mb-24 -mt-3 h-4 p-px"></div>
+    <h2 class="md:text-1xl mx-24 mt-28 font-bold sm:text-3xl lg:text-4xl">Kid’sArt qu’est-ce que c’est ?</h2>
+    <div class="mx-20 mb-24 -mt-3 h-4 w-2/6 bg-orange-clair p-px"></div>
 
-    <div class="z-20 float-right -mb-36">
-      <div class="bg-orange-fonce z-10 mx-4 mr-2 mb-2 rounded-lg py-2.5">
-        <p class="mx-20 mt-8">
+    <div class="z-20 float-right -mb-36 mr-52">
+      <div class="z-10 mx-4 mr-2 mb-2 rounded-lg bg-orange-clair py-2.5">
+        <p class="font-inter sm:text-1xl lg:text-1xl mx-20 mt-8 md:text-2xl">
           Vous souhaitez convertir les dessins de vos enfants en <br />
           guise de souvenirs ou d’élargir vos connaissances en art ? <br />
           Kid’sArt est fait pour vous !
         </p>
-        <p class="mx-20 mt-2 mb-8">
+        <p class="font-inter sm:text-1xl lg:text-1xl mx-20 mt-2 mb-8 md:text-2xl">
           Nos artistes vous proposent leurs services en interprettant en oeuvre d’art <br />
           les prestations de vos enfants avec talent et imagination
         </p>
       </div>
     </div>
 
-    <img src="/images/index-image.jpg" class="-z-10 mr-auto" alt="artiste" />
+    <img src="/images/index-image.png" class="-z-30 mr-auto pb-52" alt="artiste" />
 
     <div class="mx-auto max-w-lg">
       <iframe
@@ -52,8 +55,8 @@
       </button>
     </div>
 
-    <h2 class="mx-24 mt-28 text-3xl">Mais comment ça marche ?</h2>
-    <div class="w-4/4 bg-orange-fonce mx-20 -mt-3 h-4 p-px"></div>
+    <h2 class="md:text-1xl mx-24 mt-28 font-bold sm:text-3xl lg:text-4xl">Mais comment ça marche ?</h2>
+    <div class="mx-20 -mt-3 h-4 w-2/6 bg-orange-clair p-px"></div>
 
     <p class="mx-40 mt-8 font-bold">C’est très simple !</p>
 

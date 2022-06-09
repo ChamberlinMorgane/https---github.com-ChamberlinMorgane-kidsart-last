@@ -1,7 +1,7 @@
 <template>
   <img class="mt-48" src="/images/hero_artistes.jpg" alt="artistes" />
   <div class="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
-    <RouterLink to="/artiste" v-for="art in listeArtistes" :key="art"><Card :nom="art.nom" :image="art.image" /></RouterLink>
+    <RouterLink to="/compte" v-for="art in listeArtistes" :key="art"><Card :nom="art.nom" :image="art.image" /></RouterLink>
   </div>
 </template>
 <script>

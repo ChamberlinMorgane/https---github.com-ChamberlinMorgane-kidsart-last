@@ -2,9 +2,9 @@
   <main class="min-h-screen">
     <img src="images/hero-commande.jpg" class="mt-44" alt="bandeau commande" />
 
-    <h2 class="mx-24 mt-10 mb-10 text-lg">Panier > Coordonnées > Payer</h2>
+    <h2 class="mx-24 mt-10 mb-10">Panier > Coordonnées > Payer</h2>
 
-    <div class="mx-24">
+    <div class="mx-24 mt-28">
       <div class="grid h-10 w-max grid-cols-4 gap-14 bg-amber-400 p-2 text-center">
         <p>Article(s)</p>
         <p>Prix</p>
@@ -26,7 +26,9 @@
             <p>TOTAL :</p>
             <p>58,00€</p>
           </div>
-          <a href="commande2"><button class="ml-24 mb-6 h-11 w-32 rounded-xl bg-orange-clair font-bold text-black">PAYER</button></a>
+          <RouterLink to="/commande2"
+            ><button class="ml-24 mb-6 h-11 w-32 rounded-xl bg-orange-clair font-bold text-black">Payer</button>
+          </RouterLink>
         </div>
 
         <p class="mt-7 mb-6 text-center font-bold uppercase">Nous acceptons</p>

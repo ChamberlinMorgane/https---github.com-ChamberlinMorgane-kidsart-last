@@ -9,7 +9,7 @@ import InscriptionsView from '../views/InscriptionsView.vue'
 import MoncompteView from '../views/MoncompteView.vue'
 import NosartistesView from '../views/NosartistesView.vue'
 import CreateView from '../views/artiste/CreateView.vue'
-import UpdateView from '../views/artiste/UpdateView.vue'
+import UpdateView from '../views/UpdateView.vue'
 import DeleteView from '../views/artiste/DeleteView.vue'
 import GuidedestyleView from '../views/GuidedestyleView.vue'
 import Page404 from '../views/Page404.vue'
@@ -34,7 +34,7 @@ const router = createRouter({
     { path: '/nosartistes', name: 'NosartistesView', component: NosartistesView },
     { path: '/createview', name: 'CreateView', component: CreateView },
     { path: '/delete/:id', name: 'DeleteView', component: DeleteView },
-    { path: '/update/:id', name: 'UpdateView', component: UpdateView },
+    { path: '/update', name: 'UpdateView', component: UpdateView },
     { path: '/Guidestyle', name: 'GuidedestyleView', component: GuidedestyleView },
     { path: '/:pathMatch(.*)', name: 'Page404', component: Page404 },
     { path: '/commande1', name: 'Commande1View', component: Commande1View },
