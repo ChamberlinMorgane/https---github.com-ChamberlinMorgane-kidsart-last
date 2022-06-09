@@ -9,7 +9,7 @@ import InscriptionsView from '../views/InscriptionsView.vue'
 import MoncompteView from '../views/MoncompteView.vue'
 import NosartistesView from '../views/NosartistesView.vue'
 import CreateView from '../views/artiste/CreateView.vue'
-import UpdateView from '../views/UpdateView.vue'
+import UpdateView from '../views/artiste/UpdateView.vue'
 import DeleteView from '../views/artiste/DeleteView.vue'
 import GuidedestyleView from '../views/GuidedestyleView.vue'
 import Page404 from '../views/Page404.vue'
@@ -18,7 +18,8 @@ import Commande2View from '../views/Commande2View.vue'
 import Commande3View from '../views/Commande3View.vue'
 import TchatView from '../views/TchatView.vue'
 import CompteArtisteView from '../views/CompteArtisteView.vue'
-
+import Modifiermonprofil from '../views/Modifiermonprofil.vue'
+import NouveauxArtistesView from '../views/NouveauxArtistesView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -34,7 +35,7 @@ const router = createRouter({
     { path: '/nosartistes', name: 'NosartistesView', component: NosartistesView },
     { path: '/createview', name: 'CreateView', component: CreateView },
     { path: '/delete/:id', name: 'DeleteView', component: DeleteView },
-    { path: '/update', name: 'UpdateView', component: UpdateView },
+    { path: '/update/:id', name: 'UpdateView', component: UpdateView },
     { path: '/Guidestyle', name: 'GuidedestyleView', component: GuidedestyleView },
     { path: '/:pathMatch(.*)', name: 'Page404', component: Page404 },
     { path: '/commande1', name: 'Commande1View', component: Commande1View },
@@ -42,6 +43,9 @@ const router = createRouter({
     { path: '/commande3', name: 'Commande3View', component: Commande3View },
     { path: '/messagerie', name: 'TchatView', component: TchatView },
     { path: '/compte', name: 'CompteArtisteView', component: CompteArtisteView },
+    { path: '/modifiermonprofil', name: 'Modifiermonprofil', component: Modifiermonprofil },
+    { path: '/nouveauxartistes', name: 'NouveauxArtistesView', component: NouveauxArtistesView },
+
 
 
 
