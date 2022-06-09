@@ -10,7 +10,7 @@
           <div class="px-2">
             <label for="type1" class="flex cursor-pointer items-center">
               <input type="radio" class="form-radio h-5 w-5 text-orange-500" name="type" id="type1" checked />
-              <img src="images/moyen-de-paiement-3.jpg" alt="mode de paiement" class="mx-16 flex w-44" />
+              <img src="/images/moyen-de-paiement-3.jpg" alt="mode de paiement" class="mx-16 flex w-44" />
             </label>
           </div>
           <div class="px-2">

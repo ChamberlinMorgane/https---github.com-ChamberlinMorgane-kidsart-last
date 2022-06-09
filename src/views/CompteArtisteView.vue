@@ -2,7 +2,7 @@
   <main class="mt-48">
     <div class="grid grid-cols-4 justify-items-center gap-x-20">
       <div class="flex flex-col">
-        <img class="w-40" src="images/danielcurtice.jpg" alt="image daniel curtice" />
+        <img class="w-40" src="/images/danielcurtice.jpg" alt="image daniel curtice" />
         <p class="m-auto mt-4 mb-32 h-8 w-24 justify-center bg-blue-200 pl-5 pt-1">Artiste</p>
       </div>
 
@@ -23,8 +23,8 @@
             <p>réseaux</p>
             <p>sociaux</p>
           </div>
-          <a href="https://www.facebook.com/"><img class="h-auto w-6" src="icons/facebook-app.png" alt="icone instagram" /></a>
-          <a href="https://www.instagram.com/"><img class="h-auto w-6" src="icons/instagram.png" alt="icone facebook" /></a>
+          <a href="https://www.facebook.com/"><img class="h-auto w-6" src="/icons/facebook-app.png" alt="icone instagram" /></a>
+          <a href="https://www.instagram.com/"><img class="h-auto w-6" src="/icons/instagram.png" alt="icone facebook" /></a>
         </div>
       </div>
     </div>
@@ -42,14 +42,14 @@
       <div class="">
         <h6 class="text-2xl font-bold">Mes oeuvres :</h6>
         <div class="mt-8 flex w-36 gap-x-10">
-          <img src="images/image.jpg" alt="oeuvre numéro 1" />
-          <img src="images/image-1.jpg" alt="oeuvre numéro 2" />
+          <img src="/images/image.jpg" alt="oeuvre numéro 1" />
+          <img src="/images/image-1.jpg" alt="oeuvre numéro 2" />
         </div>
       </div>
     </div>
     <div>
       <h3 class="mx-32 text-2xl font-bold">Voici mes prix</h3>
-      <img src="images/tableaux-prix.jpg" alt="tarifs de l'artiste" class="mx-20 mb-44 w-3/6" />
+      <img src="/images/tableaux-prix.jpg" alt="tarifs de l'artiste" class="mx-20 mb-44 w-3/6" />
     </div>
   </main>
 </template>

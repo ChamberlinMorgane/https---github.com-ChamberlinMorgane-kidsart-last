@@ -2,9 +2,9 @@
   <div class="mt-10 mb-20 h-56 w-48 border-8 border-formulaire-promo-final bg-formulaire-promo-final">
     <img class="rounded-sm" :src="image" alt="coloriage" />
     <div class="mt-2 flex h-5 w-5 flex-row gap-7">
-      <img src="icons/crayon.png" alt="icones crayon" />
+      <img src="/icons/crayon.png" alt="icones crayon" />
       <p class="text-xs">colorier gratuitement</p>
-      <img src="icons/contour-en-forme-de-coeur.png" alt="icone de coeur" />
+      <img src="/icons/contour-en-forme-de-coeur.png" alt="icone de coeur" />
     </div>
   </div>
 </template>

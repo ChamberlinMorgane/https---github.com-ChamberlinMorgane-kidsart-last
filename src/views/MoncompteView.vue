@@ -3,7 +3,7 @@
     <h2 class="md:text-1xl m-auto mb-36 flex justify-center font-bold text-black sm:text-3xl lg:text-4xl">MON COMPTE</h2>
     <div class="grid grid-cols-4 justify-items-center gap-x-20">
       <div class="flex flex-col">
-        <img class="w-40" src="images/patricia.png" alt="image daniel curtice" />
+        <img class="w-40" src="/public/images/patricia.png" alt="image patricia" />
         <p class="m-auto mt-4 mb-32 h-8 w-24 justify-center bg-blue-200 pl-5 pt-1">Famille</p>
       </div>
 
@@ -24,8 +24,8 @@
             <p>réseaux</p>
             <p>sociaux</p>
           </div>
-          <a href="https://www.facebook.com/"><img class="h-auto w-10" src="icons/facebook-app.png" alt="icone instagram" /></a>
-          <a href="https://www.instagram.com/"><img class="h-auto w-10" src="icons/instagram.png" alt="icone facebook" /></a>
+          <a href="https://www.facebook.com/"><img class="h-auto w-10" src="/public/icons/facebook-app.png" alt="icone instagram" /></a>
+          <a href="https://www.instagram.com/"><img class="h-auto w-10" src="/public/icons/instagram.png" alt="icone facebook" /></a>
         </div>
       </div>
     </div>
@@ -42,7 +42,7 @@
       <div class="">
         <h6 class="text-2xl font-bold">Ma petite famille :</h6>
         <div class="mt-8 w-36">
-          <img src="images/famille.jpg" alt="famille de patricia " />
+          <img src="/public/images/famille.jpg" alt="famille de patricia " />
         </div>
       </div>
     </div>

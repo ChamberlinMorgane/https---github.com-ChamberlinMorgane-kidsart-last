@@ -1,6 +1,6 @@
 <template>
   <main>
-    <img src="images/hero-commande.jpg" class="mt-44" alt="bandeau commande" />
+    <img src="/images/hero-commande.jpg" class="mt-44" alt="bandeau commande" />
 
     <h2 class="mx-24 mt-10 mb-10 text-lg">Panier > Coordonnées > Payer</h2>
     <p class="md:text-1xl m-20 text-center font-bold sm:text-3xl lg:text-4xl">Coordonnées de livraison</p>
@@ -80,7 +80,7 @@
 
               <p class="mx-16 mb-3">Moyens de paiement</p>
               <div class="mb-9 flex">
-                <img src="images/paiement.jpg" alt="mode de paiement" class="mx-16 flex w-72" />
+                <img src="/images/paiement.jpg" alt="mode de paiement" class="mx-16 flex w-72" />
                 <RouterLink to="/commande3"
                   ><button
                     type="submit"
