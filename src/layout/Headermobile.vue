@@ -1,6 +1,6 @@
 <template>
   <header class="z-50 flex h-8 w-screen">
-    <a href="/"><Logo class="" /></a>
+    <a href="/"><Logokidsart class="mx-7 my-5 mt-5 h-12 w-auto" /></a>
     <MenuAlt1Icon class="right-5 z-50 ml-auto mt-5 h-8 w-8" @click="MenuOpen = !MenuOpen" v-if="!MenuOpen" />
     <XIcon class="right-5 z-50 ml-auto mt-5 h-8 w-8" @click="MenuOpen = !MenuOpen" v-if="MenuOpen" />
     <nav
@@ -22,22 +22,25 @@
     >
       <ul class="text-1lg flex h-full flex-col items-center justify-center gap-5 text-left font-bold">
         <li>
-          <RouterLink to="/" @click="MenuOpen = !MenuOpen">Accueil</RouterLink>
+          <RouterLink to="/" @click="MenuOpen = !MenuOpen" class="font-acme text-6xl">Accueil</RouterLink>
         </li>
         <li>
-          <RouterLink to="/concert" @click="MenuOpen = !MenuOpen">Concert</RouterLink>
+          <RouterLink to="/nosartistes" @click="MenuOpen = !MenuOpen">Nos artistes</RouterLink>
         </li>
         <li>
-          <RouterLink to="/programmation" @click="MenuOpen = !MenuOpen">Programmation</RouterLink>
-        </li>
-        <li>
-          <RouterLink to="/artistes" @click="MenuOpen = !MenuOpen">Artistes</RouterLink>
-        </li>
-        <li>
-          <RouterLink to="/apropos" @click="MenuOpen = !MenuOpen">Festival</RouterLink>
+          <RouterLink to="/noscoloriages" @click="MenuOpen = !MenuOpen">Nos coloriages</RouterLink>
         </li>
         <li>
           <RouterLink to="/contact" @click="MenuOpen = !MenuOpen">Contact</RouterLink>
+        </li>
+        <li>
+          <RouterLink to="/apropos" @click="MenuOpen = !MenuOpen">À propos</RouterLink>
+        </li>
+        <li>
+          <RouterLink to="/inscriptions" @click="MenuOpen = !MenuOpen">S'inscrire</RouterLink>
+        </li>
+        <li>
+          <RouterLink to="/connexion" @click="MenuOpen = !MenuOpen">Se connecter</RouterLink>
         </li>
       </ul>
     </nav>
@@ -46,6 +49,7 @@
 
 <script>
 import { MenuAlt1Icon, XIcon } from "@heroicons/vue/outline";
+import Logokidsart from "../../public/icons/IconLogo.vue";
 
 export default {
   data() {
@@ -53,6 +57,6 @@ export default {
       MenuOpen: false,
     };
   },
-  components: { MenuAlt1Icon, XIcon },
+  components: { MenuAlt1Icon, XIcon, Logokidsart },
 };
-</script> 
+</script>

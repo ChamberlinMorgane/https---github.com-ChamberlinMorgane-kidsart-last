@@ -1,8 +1,8 @@
-  <template>
+<template>
   <header class="h-24 bg-gray-200 pb-20">
     <nav class="flex">
       <div>
-        <RouterLink to="/"><Logo class="mx-7 my-5 h-11 w-12" /></RouterLink>
+        <RouterLink to="/"><IconLogo class="mx-7 my-5 mt-5 h-12 w-auto" /></RouterLink>
       </div>
 
       <div class="mx-6 mt-8 flex space-x-8 font-light text-black">
@@ -10,18 +10,18 @@
         <RouterLink to="/apropos">A propos</RouterLink>
         <RouterLink to="/contact">Contact</RouterLink>
         <RouterLink to="/nosartistes">Nos artistes</RouterLink>
-        <RouterLink to="/coloriage">Nos Coloriages</RouterLink>
+        <RouterLink to="/coloriage">Nos coloriages</RouterLink>
       </div>
     </nav>
 
     <div class="ml-auto mr-7 flex gap-x-4">
-      <RouterLink to="/commande1"><img src="/icons/commande.svg" class="mt-11 h-8 w-8" /></RouterLink>
+      <RouterLink to="/commande1"><img src="/icons/commande.svg" class="mt-8 h-8 w-8" /></RouterLink>
       <div class="flex flex-col justify-center hover:border-b-4 hover:border-b-white">
         <RouterLink class="block py-2 px-4" to="/">
-          <div class="mt-14 grid">
+          <div class="mt-20 grid">
             <span v-if="avatar != null" class="mr-3">
               <img class="avatar h-10 w-auto" :src="avatar" />
-              <RouterLink to="moncompte" class="text-xs">{{ name }}</RouterLink>
+              <RouterLink to="/" class="text-xs">{{ name }}</RouterLink>
             </span>
           </div>
           <div v-if="avatar != null" class="hidden pt-9">
@@ -39,6 +39,8 @@
 
 <script>
 import Users from "../components/Users.vue";
+import IconLogo from "/public/icons/IconLogo.vue";
+
 // Fonctions Firestore
 import { getFirestore, collection, onSnapshot, query, where } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-firestore.js";
 
@@ -53,7 +55,7 @@ import { emitter } from "../main";
 
 export default {
   name: "App",
-  components: { Users },
+  components: { Users, IconLogo },
   data() {
     return {
       MenuOpen: false,
@@ -147,7 +149,4 @@ export default {
   },
 };
 </script>
-
-
-
 
