@@ -1,10 +1,10 @@
 <template>
   <img class="mt-48 h-auto w-full" src="/images/hero_contact.jpg" alt="hero contact" />
 
-  <form class="mx-auto w-3/4">
+  <form class="mx-auto mt-12 mb-14 w-3/4 lg:mb-32 lg:mt-32">
     <div class="-mx-3 mb-6 flex flex-wrap">
       <div class="mb-6 w-full px-3 md:mb-0 md:w-1/2">
-        <label class="mb-2 block text-xs font-bold uppercase tracking-wide text-white" for="grid-first-name">Nom</label>
+        <label class="mb-2 block text-xs font-bold uppercase tracking-wide text-black" for="grid-first-name">Nom</label>
         <input
           class="
             text-grey-600
@@ -14,7 +14,7 @@
             appearance-none
             rounded
             border border-gray-500
-            bg-gray-100
+            bg-gray-200
             py-3
             px-4
             leading-tight
@@ -27,7 +27,7 @@
         <p class="text-xs text-red-600">Champ obligatoire</p>
       </div>
       <div class="w-full px-3 md:w-1/2">
-        <label class="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-200" for="grid-last-name">Prénom</label>
+        <label class="mb-2 block text-xs font-bold uppercase tracking-wide text-black" for="grid-last-name">Prénom</label>
         <input
           class="
             text-grey-600
@@ -35,7 +35,7 @@
             w-full
             appearance-none
             rounded
-            border border-gray-200
+            border border-gray-500
             bg-gray-200
             py-3
             px-4
@@ -50,7 +50,7 @@
     </div>
     <div class="-mx-3 mb-6 flex flex-wrap">
       <div class="w-full px-3">
-        <label class="mb-2 block text-xs font-bold uppercase tracking-wide text-white" for="grid-password"> E-mail </label>
+        <label class="mb-2 block text-xs font-bold uppercase tracking-wide text-black" for="grid-password"> E-mail </label>
         <input
           class="
             mb-3
@@ -58,7 +58,7 @@
             w-full
             appearance-none
             rounded
-            border border-gray-200
+            border border-gray-500
             bg-gray-200
             py-3
             px-4
@@ -75,7 +75,7 @@
 
     <div class="-mx-3 mb-6 flex flex-wrap">
       <div class="w-full px-3">
-        <label class="mb-2 block text-xs font-bold uppercase tracking-wide text-white" for="grid-password"> Message </label>
+        <label class="mb-2 block text-xs font-bold uppercase tracking-wide text-black" for="grid-password"> Message </label>
         <textarea
           class="
             no-resize
@@ -86,7 +86,7 @@
             resize-none
             appearance-none
             rounded
-            border border-gray-200
+            border border-gray-500
             bg-gray-200
             py-3
             px-4
@@ -106,14 +106,14 @@
             class="
               focus:shadow-outline
               rounded
-              border-2
-              bg-cyan-600
+              border-2 border-black
+              bg-orange-200
               py-2
               px-4
               font-bold
-              text-white
+              text-black
               shadow
-              hover:bg-cyan-900
+              hover:bg-orange-300
               focus:outline-none
             "
             type="button"
